@@ -1,41 +1,8 @@
-0.3.0 unreleased
-    - Changed the order of changelog items: More recent items are now at the top
-    - Fixed typos in README file, and updated "inheritance principle" quote
+0.1.0 2018-05-03
+    - initial release
 
-0.2.0 2020-07-24
-    - Added info on feedback onset to README
-    - Re-calculated onset column without rounding
-    - Work on events.tsv and json
-        - Renamed columns: trl->trial, pred->bci_prediction, pred_valid->bci_prediction_valid, n_invalid->n_repeated
-        - Extend/clarify several 'Description' fields
-        - Add previously undocumented events based on what was learned from experiment code
-    - Use CMIXF-12 formatting throughout: https://people.csail.mit.edu/jaffer/MIXF/CMIXF-12
-    - Add new recommended DatasetType field to dataset_description
-
-0.1.6 2020-06-02
-    - bumped BIDS version, anticipating the imminent release of BIDS 1.4
-    - removed the unneeded .bidsignore file: LICENSE files are now valid, no need to ignore anymore
-    - adjusted HowToAcknowledge field in dataset_description
-
-0.1.5 2019-05-04
-    - added the full license text in LICENSE and a .bidsignore file to make
-      the bids-validator accept this file
-    - Make adjustments to the License part in the README
-    - adjusted the BIDS version used to 1.2, because the EEG extension proposal
-      has been merged fully by now
-
-0.1.4 2018-11-29
-    - replaced uV strings with µV, using the micro sign µ
-    - renamed event_value to value, and event_sample to sample
-    - reformat README to have line lengths < 80 characters
-    - remove superfluous "LongName" keys from JSON files
-    - general BEP_006 compliance
-    - remove subject wise eeg.json sidecar files, these are covered
-      by the eeg.json at the root via inheritance
-
-0.1.3 2018-09-21
-    - added participants.tsv to explain additional variables: age,
-      handedness, sex
+0.1.1 2018-06-13
+    - adjusted BIDS formatting in compliance with BEP_006 EEG
 
 0.1.2 2018-07-22
     - added DOI to dataset
@@ -47,8 +14,37 @@
     - adjusted events.json according to events.tsv
     - general BEP_006 compliance
 
-0.1.1 2018-06-13
-    - adjusted BIDS formatting in compliance with BEP_006 EEG
+0.1.3 2018-09-21
+    - added participants.tsv to explain additional variables: age,
+      handedness, sex
 
-0.1.0 2018-05-03
-    - initial release
+0.1.4 2018-11-29
+    - replaced uV strings with µV, using the micro sign µ
+    - renamed event_value to value, and event_sample to sample
+    - reformat README to have line lengths < 80 characters
+    - remove superfluous "LongName" keys from JSON files
+    - general BEP_006 compliance
+    - remove subject wise eeg.json sidecar files, these are covered
+      by the eeg.json at the root via inheritance
+
+0.1.5 2019-05-04
+    - added the full license text in LICENSE and a .bidsignore file to make
+      the bids-validator accept this file
+    - Make adjustments to the License part in the README
+    - adjusted the BIDS version used to 1.2, because the EEG extension proposal
+      has been merged fully by now
+
+0.1.6 2020-06-02
+    - bumped BIDS version, anticipating the imminent release of BIDS 1.4
+    - removed the unneeded .bidsignore file: LICENSE files are now valid, no need to ignore anymore
+    - adjusted HowToAcknowledge field in dataset_description
+
+0.2.0 2020-07-24
+    - Added info on feedback onset to README
+    - Re-calculated onset column without rounding
+    - Work on events.tsv and json
+        - Renamed columns: trl->trial, pred->bci_prediction, pred_valid->bci_prediction_valid, n_invalid->n_repeated
+        - Extend/clarify several 'Description' fields
+        - Add previously undocumented events based on what was learned from experiment code
+    - Use CMIXF-12 formatting throughout: https://people.csail.mit.edu/jaffer/MIXF/CMIXF-12
+    - Add new recommended DatasetType field to dataset_description

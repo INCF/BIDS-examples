@@ -49,9 +49,9 @@ https://bids-specification.rtfd.io/en/stable/02-common-principles.html#the-inher
 
 The section states that:
 
-> Any metadata file (such as .json, .bvec or .tsv) may be defined at any directory level,
-> but no more than one applicable file may be defined at a given level [...]
-> The values from the top level are inherited by all lower levels unless they are overridden by a file at the lower level.
+> Any metadata file (​.json​,​.bvec​,​.tsv​, etc.) may be defined at any directory
+level. The values from the top level are inherited by all lower levels unless
+they are overridden by a file at the lower level.
 
 
 Details about the experiment
@@ -79,13 +79,13 @@ each subject.
 The original data was recorded in `.xdf` format using labstreaminglayer
 (https://github.com/sccn/labstreaminglayer). It is stored in the `/sourcedata`
 directory. To comply with the BIDS format, the .xdf format was converted to
-BrainVision format (see the `.eeg` file for binary eeg data, the `.vhdr` as a
+brainvision format (see the `.eeg` file for binary eeg data, the `.vhdr` as a
 text header filer containing meta data, and the `.vmrk` as a text file storing
 the eeg markers).
 
 Note that in the experiment, the only EEG TTL triggers that were recorded are related
 to the button release of the left (=value 1) or right (=value 2) hand.
-The onset of the feedback stimulus (drawing of left or right hand shown on the screen)
+The onset of the feedback stimulus (drawing ofleft or right hand shown on the screen)
 was not recorded, however it can be crudely estimated to be around 50ms + ~10ms + ~8ms,
 where 50ms were a hardcoded break before getting the online data from LSL, ~10ms was
 the time to get a prediction from the BCI classifier, but this varied around 10ms,
