@@ -24,6 +24,9 @@ Requirements
 import os.path as op
 import re
 from datetime import datetime
+import json
+
+import pandas as pd
 
 # %% Constants
 mp_root = "/home/stefanappelhoff/Desktop/bids/bids-examples/eeg_matchingpennies"
@@ -254,3 +257,55 @@ with open(CHANGES, "w", encoding="utf-8") as fout:
 
 
 # add HED objects to events JSON --> most importantly for "trial_type"
+
+# %% Drop "bci_prediction_valid" column, and countdown rows
+
+# First assert that all values there are "1" (i.e., "valid").
+# If they are, there is no point in having this column.
+all_ones_list = []
+fnames = []
+for sub in range(5, 12):
+    fname = op.join(
+        mp_root,
+        f"sub-{sub:02}",
+        "eeg",
+        f"sub-{sub:02}_task-matchingpennies_events.tsv",
+    )
+    df = pd.read_csv(fname, sep="\t")
+    if df["bci_prediction_valid"].nunique() == 1:
+        all_ones_list.append(True)
+    else:
+        all_ones_list.append(False)
+    fnames.append(fname)
+
+assert all(all_ones_list)
+for fname in fnames:
+    df = pd.read_csv(fname, sep="\t")
+
+    # drop column
+    df = df.drop(columns="bci_prediction_valid")
+
+    # drop the rows
+    df = df[~df["duration"].isna()]
+
+    df.to_csv(fname, sep="\t", na_rep="n/a", index=False)
+
+events_json = op.join(mp_root, "task-matchingpennies_events.json")
+with open(events_json, "r") as fin:
+    events_json_dict = json.load(fin)
+
+events_json_dict.pop("bci_prediction_valid", None)
+
+with open(events_json, "w") as fout:
+    json.dump(events_json_dict, fout, ensure_ascii=False, indent=4)
+    fout.write("\n")
+
+
+# add this change to CHANGES
+changes.append(
+    "Drop the 'bci_prediction_valid' column from events.tsv and its entry in events.json\n"
+)
+
+# %%
+
+# %%
