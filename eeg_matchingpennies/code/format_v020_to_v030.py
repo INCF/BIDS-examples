@@ -233,3 +233,24 @@ update_txt += "\n\n" + lines
 
 with open(CHANGES, "w", encoding="utf-8") as fout:
     print(update_txt.rstrip(), file=fout)
+
+# %% re-organize events.tsv column order and descriptions, and add columns
+
+# onset: add to description that this is the raising of the hand
+# duration: add that this is duration 0: instantaneous event
+# value
+# sample
+# add column: countdown_onset --> "start of countdown (3 secs) prior to raising of the hand"
+# response_time: time to lift hand after countdown ended, end of resopnse time coincides with "onset"
+# add column: feedback_onset --> "approximate time" after onset
+# stim_file: feedback that was shown
+# trial_type: left-raised-match, right-raised-match, left-raised-no-match, right-raised-no-match
+# stage: "stage of BCI"
+# trial
+# bci_prediction
+# latency
+# bci_prediction_valid --> potentially remove from data? ... if it's all 1s
+# n_repeated --> and make more obvious description of what this means
+
+
+# add HED objects to events JSON --> most importantly for "trial_type"
