@@ -31,6 +31,8 @@ import pandas as pd
 # %% Constants
 mp_root = "/home/stefanappelhoff/Desktop/bids/bids-examples/eeg_matchingpennies"
 
+countdown_duration_s = 3.0
+
 # %% Assert we are working on the correct version of the data
 
 CHANGES = op.join(mp_root, "CHANGES")
@@ -237,33 +239,12 @@ update_txt += "\n\n" + lines
 with open(CHANGES, "w", encoding="utf-8") as fout:
     print(update_txt.rstrip(), file=fout)
 
-# %% re-organize events.tsv column order and descriptions, and add columns
-
-# onset: add to description that this is the raising of the hand
-# duration: add that this is duration 0: instantaneous event
-# value
-# sample
-# add column: countdown_onset --> "start of countdown (3 secs) prior to raising of the hand"
-# response_time: time to lift hand after countdown ended, end of resopnse time coincides with "onset"
-# add column: feedback_onset --> "approximate time" after onset
-# stim_file: feedback that was shown
-# trial_type: left-raised-match, right-raised-match, left-raised-no-match, right-raised-no-match
-# stage: "stage of BCI"
-# trial
-# bci_prediction
-# latency
-# bci_prediction_valid --> potentially remove from data? ... if it's all 1s
-# n_repeated --> and make more obvious description of what this means
-
-
-# add HED objects to events JSON --> most importantly for "trial_type"
-
 # %% Drop "bci_prediction_valid" column, and countdown rows
 
 # First assert that all values there are "1" (i.e., "valid").
 # If they are, there is no point in having this column.
 all_ones_list = []
-fnames = []
+fnames_events_tsv = []
 for sub in range(5, 12):
     fname = op.join(
         mp_root,
@@ -276,10 +257,10 @@ for sub in range(5, 12):
         all_ones_list.append(True)
     else:
         all_ones_list.append(False)
-    fnames.append(fname)
+    fnames_events_tsv.append(fname)
 
 assert all(all_ones_list)
-for fname in fnames:
+for fname in fnames_events_tsv:
     df = pd.read_csv(fname, sep="\t")
 
     # drop column
@@ -300,12 +281,106 @@ with open(events_json, "w") as fout:
     json.dump(events_json_dict, fout, ensure_ascii=False, indent=4)
     fout.write("\n")
 
+# add this change to CHANGES
+changes += [
+    "Drop the 'bci_prediction_valid' column from events.tsv and its entry in events.json",
+    "Drop the event rows associated with countdown start, and countdown end from events.tsv.",
+]
+
+# %% Add hand_raised, countdown on/offset and feedback onset, and reorganize df
+
+for fname in fnames_events_tsv:
+
+    # load data
+    df = pd.read_csv(fname, sep="\t")
+
+    df["hand_raised"] = df["value"].map({1: "left", 2: "right"})
+
+    # add columns
+    df["countdown_offset"] = df["onset"] - df["response_time"] / 1000
+    df["countdown_onset"] = df["countdown_offset"] - countdown_duration_s
+
+    # See README for justification of these values
+    deliberate_delay = 0.05
+    computation_delay_approx = 0.01
+    fps = 60
+    screen_refresh_delay_approx = (1 / fps) / 2
+    df["feedback_onset_approx"] = (
+        df["onset"]
+        + deliberate_delay
+        + computation_delay_approx
+        + screen_refresh_delay_approx
+    )
+
+    # reorganize DF
+    event_cols = [
+        "onset",
+        "duration",
+        "trial",
+        "hand_raised",
+        "value",
+        "sample",
+        "countdown_onset",
+        "countdown_offset",
+        "response_time",
+        "feedback_onset_approx",
+        "stim_file",
+        "trial_type",
+        "stage",
+        "bci_prediction",
+        "latency",
+        "n_repeated",
+    ]
+    df = df[event_cols]
 
 # add this change to CHANGES
-changes.append(
-    "Drop the 'bci_prediction_valid' column from events.tsv and its entry in events.json\n"
-)
+changes += [
+    "Add events.tsv columns hand_raised, countdown_onset, countdown_offset, and feedback_onset_approx",
+    "Reorganize the column order in events.tsv",
+]
 
-# %%
+# %% Update documentation in events.json file
 
-# %%
+events_json = op.join(mp_root, "task-matchingpennies_events.json")
+with open(events_json, "r") as fin:
+    events_json_dict_old = json.load(fin)
+
+# correct order
+events_json_dict = {
+    key: events_json_dict_old.get(key, {"Description": ""})
+    for key in event_cols
+}
+
+# update/improve doc
+
+
+# write back to file
+with open(events_json, "w") as fout:
+    json.dump(events_json_dict, fout, ensure_ascii=False, indent=4)
+    fout.write("\n")
+
+changes += [
+    "Update events.json, and improve the documentation therein",
+]
+
+
+# %% add HED objects to events JSON
+
+# onset: add to description that this is the raising of the hand
+# duration: add that this is duration 0: instantaneous event
+# value
+# sample
+# add column: countdown_onset --> "start of countdown (3 secs) prior to raising of the hand"
+# response_time: time to lift hand after countdown ended, end of resopnse time coincides with "onset"
+# add column: feedback_onset --> "approximate time" after onset
+# stim_file: feedback that was shown
+# trial_type: left-raised-match, right-raised-match, left-raised-no-match, right-raised-no-match
+# stage: "stage of BCI"
+# trial
+# bci_prediction
+# latency
+# bci_prediction_valid --> potentially remove from data? ... if it's all 1s
+# n_repeated --> and make more obvious description of what this means
+
+
+# add HED objects to events JSON --> most importantly for "trial_type"
