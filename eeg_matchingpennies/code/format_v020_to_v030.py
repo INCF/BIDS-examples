@@ -2,15 +2,16 @@
 
 In the changes from 0.1.6 to 0.2.0, two additional events per trial were
 added as rows to the events.tsv files, corresponding to the onset and offset
-of a "shrinking bar" that was part of the experimental procedure.
+of a "shrinking bar" countdown that was part of the experimental procedure.
 Adding these events turned the previous "by-trial" organization of the
 events.tsv file to a mix of "by-trial" (i.e., one row per trial) and
-"by-event" (i.e., one row per event) organization, which is inconsistent.
-To format the dataset into a full "by-event" format, too little information
-was saved during data recording (not all events can be accurately
-reconstructed).
-So with this reformatting script, the dataset events files are turned back
-into a "by-trial" format.
+"by-event" (i.e., one row per event) organization, which is inconsistent
+and can be confusing for users.
+To format the dataset into a full "by-event" format, which is often preferable,
+too little information was saved during data recording (not all events can
+be accurately reconstructed).
+So with this present reformatting script, the dataset events files are turned
+back into a pure "by-trial" format.
 
 To further document the data, Hierarchical Event Descriptor (HED) tags are
 added.
@@ -18,6 +19,7 @@ added.
 Requirements
 ------------
 - Python 3.7.7
+- Pandas 1.0.5
 
 """
 # %% Imports
@@ -223,22 +225,6 @@ changes.append(
     "Changed the order of changelog items: More recent items are now at the top"
 )
 
-
-# %% Update contents of CHANGES
-
-update_txt = f"0.3.0 {datetime.now().strftime('%Y-%m-%d')}"
-for change in changes:
-    update_txt += "\n    - " + change
-
-CHANGES = op.join(mp_root, "CHANGES")
-with open(CHANGES, "r", encoding="utf-8") as fin:
-    lines = fin.read()
-
-update_txt += "\n\n" + lines
-
-with open(CHANGES, "w", encoding="utf-8") as fout:
-    print(update_txt.rstrip(), file=fout)
-
 # %% Drop "bci_prediction_valid" column, and countdown rows
 
 # First assert that all values there are "1" (i.e., "valid").
@@ -283,8 +269,8 @@ with open(events_json, "w") as fout:
 
 # add this change to CHANGES
 changes += [
-    "Drop the 'bci_prediction_valid' column from events.tsv and its entry in events.json",
-    "Drop the event rows associated with countdown start, and countdown end from events.tsv.",
+    "Dropped the 'bci_prediction_valid' column from events.tsv and its entry in events.json",
+    "Dropped the event rows associated with countdown start, and countdown end from events.tsv",
 ]
 
 # %% Add hand_raised, countdown on/offset and feedback onset, and reorganize df
@@ -312,6 +298,14 @@ for fname in fnames_events_tsv:
         + screen_refresh_delay_approx
     )
 
+    # reformat levels of trial_type
+    def comb(df):
+        """Combine two string columns into one."""
+        series = f"raised-{df['hand_raised']}/match-{df['hand_raised']==df['bci_prediction']}"
+        return series.lower()
+
+    df["trial_type"] = df.apply(comb, axis=1)
+
     # reorganize DF
     event_cols = [
         "onset",
@@ -335,11 +329,12 @@ for fname in fnames_events_tsv:
 
 # add this change to CHANGES
 changes += [
-    "Add events.tsv columns hand_raised, countdown_onset, countdown_offset, and feedback_onset_approx",
-    "Reorganize the column order in events.tsv",
+    "Added events.tsv columns hand_raised, countdown_onset, countdown_offset, and feedback_onset_approx",
+    "Reformatted values of trial_type column",
+    "Reorganized the column order in events.tsv",
 ]
 
-# %% Update documentation in events.json file
+# %% Update documentation in events.json file and add HED tags
 
 events_json = op.join(mp_root, "task-matchingpennies_events.json")
 with open(events_json, "r") as fin:
@@ -347,11 +342,83 @@ with open(events_json, "r") as fin:
 
 # correct order
 events_json_dict = {
-    key: events_json_dict_old.get(key, {"Description": ""})
-    for key in event_cols
+    key: events_json_dict_old.get(key, {"Description": ""}) for key in event_cols
 }
 
 # update/improve doc
+events_json_dict["onset"][
+    "Description"
+] = "Onset of a button release (either left or right), corresponding to raising of a hand."
+events_json_dict["duration"][
+    "Description"
+] = "Duration of the button released. Modeled as instantaneous event, so the duration is 0 seconds."
+events_json_dict["trial"][
+    "Description"
+] = "The current trial within this stage (see 'stage')."
+events_json_dict["hand_raised"][
+    "Description"
+] = "Which hand was raised (i.e., which button was released)."
+events_json_dict["hand_raised"]["Levels"] = {
+    "left": "The left hand was raised (i.e., left button was released)",
+    "right": "The right hand was raised (i.e., right button was released)",
+}
+events_json_dict["sample"][
+    "Description"
+] = "The sample within the EEG data at which the button release event occurred (i.e., a hand was raised)."
+
+events_json_dict["countdown_onset"][
+    "Description"
+] = "Onset of the countdown after which to raise a hand (duration: 3 s)."
+events_json_dict["countdown_onset"]["Units"] = "s"
+
+events_json_dict["countdown_offset"][
+    "Description"
+] = "Offset of the countdown. Must raise a hand now."
+events_json_dict["countdown_offset"]["Units"] = "s"
+
+events_json_dict["feedback_onset_approx"][
+    "Description"
+] = "Approximate onset of the bci-produced feedback (either a left or a right hand visual stimulus)."
+events_json_dict["feedback_onset_approx"]["Units"] = "s"
+
+events_json_dict["stim_file"][
+    "Description"
+] = "Name of the stimulus file that was shown during this trial at 'feedback_onset_approx'."
+
+events_json_dict["trial_type"][
+    "Description"
+] = "Which hand was raised, and did this match the BCIs prediction (lose outcome), or not (win outcome)."
+events_json_dict["trial_type"]["Levels"] = {
+    "raised-left/match-false": "raised left hand, bci predicted right hand",
+    "raised-left/match-true": "raised left hand, bci predicted left hand",
+    "raised-right/match-false": "raised right hand, bci predicted left hand",
+    "raised-right/match-true": "raised right hand, bci predicted right hand",
+}
+
+events_json_dict["stage"][
+    "Description"
+] = "The current 'stage' of the experiment, which relates to how the BCI makes predictions."
+events_json_dict["stage"]["Levels"] = {
+    "1": "Stage 1. BCI makes random predictions.",
+    "2": "Stage 2. BCI makes predictions after being trained on data from stage 1.",
+    "3": "Stage 3. BCI makes predictions after being trained on data from stages 1 and 2.",
+}
+
+events_json_dict["bci_prediction"][
+    "Description"
+] = "What hand (left/right) did the BCI predict to be raised."
+
+events_json_dict["latency"]["Description"] = (
+    "Estimated beginning of the data chunk used for the BCI prediction with respect to 'onset' "
+    "(when a hand was raised / a button was released)."
+)
+
+events_json_dict["n_repeated"]["Description"] = (
+    "In case the participant did not adhere to the task rules, "
+    "the trial was aborted and repeated (e.g., if a hand was raised before the countdown was over). "
+    "'n_repeated' tracks how many trials in total within this 'stage' "
+    "had to be repeated before the trial described in a given row."
+)
 
 
 # write back to file
@@ -360,27 +427,22 @@ with open(events_json, "w") as fout:
     fout.write("\n")
 
 changes += [
-    "Update events.json, and improve the documentation therein",
+    "Updated events.json, and improved the documentation therein",
+    "Added HED tags to events.json file",
 ]
 
 
-# %% add HED objects to events JSON
+# %% Update contents of CHANGES
 
-# onset: add to description that this is the raising of the hand
-# duration: add that this is duration 0: instantaneous event
-# value
-# sample
-# add column: countdown_onset --> "start of countdown (3 secs) prior to raising of the hand"
-# response_time: time to lift hand after countdown ended, end of resopnse time coincides with "onset"
-# add column: feedback_onset --> "approximate time" after onset
-# stim_file: feedback that was shown
-# trial_type: left-raised-match, right-raised-match, left-raised-no-match, right-raised-no-match
-# stage: "stage of BCI"
-# trial
-# bci_prediction
-# latency
-# bci_prediction_valid --> potentially remove from data? ... if it's all 1s
-# n_repeated --> and make more obvious description of what this means
+update_txt = f"0.3.0 {datetime.now().strftime('%Y-%m-%d')}"
+for change in changes:
+    update_txt += "\n    - " + change
 
+CHANGES = op.join(mp_root, "CHANGES")
+with open(CHANGES, "r", encoding="utf-8") as fin:
+    lines = fin.read()
 
-# add HED objects to events JSON --> most importantly for "trial_type"
+update_txt += "\n\n" + lines
+
+with open(CHANGES, "w", encoding="utf-8") as fout:
+    print(update_txt.rstrip(), file=fout)
