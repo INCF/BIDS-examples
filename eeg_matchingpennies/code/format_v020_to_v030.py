@@ -255,6 +255,9 @@ for fname in fnames_events_tsv:
     # drop the rows
     df = df[~df["duration"].isna()]
 
+    # make sure duration is int "0"
+    df["duration"] = df["duration"].astype(int)
+
     df.to_csv(fname, sep="\t", na_rep="n/a", index=False)
 
 events_json = op.join(mp_root, "task-matchingpennies_events.json")
@@ -394,6 +397,32 @@ events_json_dict["trial_type"]["Levels"] = {
     "raised-right/match-false": "raised right hand, bci predicted left hand",
     "raised-right/match-true": "raised right hand, bci predicted right hand",
 }
+events_json_dict["trial_type"]["HED"] = {
+    "raised-left/match-true": (
+        "Description/Subject raised left hand and computer presented image of left hand, "
+        "(Agent-action, Experiment-subject, (Lift, (Left-side, Hand), (Release, (Left-side, Button)), "
+        "((Delay/68 ms, Approximated), (Sensory-presentation, Visual, (Drawing, ID/left_hand.png, "
+        "(Left-side, Hand), (Feedback, (Intended-effect, Penalty)))"
+    ),
+    "raised-left/match-false": (
+        "Description/Subject raised left hand and computer presented image of right hand, "
+        "(Agent-action, Experiment-subject, (Lift, (Left-side, Hand), (Release, (Left-side, Button)), "
+        "((Delay/68 ms, Approximated), (Sensory-presentation, Visual, (Drawing, ID/right_hand.png, "
+        "(Right-side, Hand), (Feedback, (Intended-effect, Reward)))"
+    ),
+    "raised-right/match-true": (
+        "Description/Subject raised right hand and computer presented image of right hand, "
+        "(Agent-action, Experiment-subject, (Lift, (Right-side, Hand), (Release, (Right-side, Button)), "
+        "((Delay/68 ms, Approximated), (Sensory-presentation, Visual, (Drawing, ID/right_hand.png, "
+        "(Right-side, Hand), (Feedback, (Intended-effect, Penalty)))"
+    ),
+    "raised-right/match-false": (
+        "Description/Subject raised right hand and computer presented image of left hand, "
+        "(Agent-action, Experiment-subject, (Lift, (Right-side, Hand), (Release, (Right-side, Button)), "
+        "((Delay/68 ms, Approximated), (Sensory-presentation, Visual, (Drawing, ID/left_hand.png, "
+        "(Left-side, Hand), (Feedback, (Intended-effect, Reward)))"
+    ),
+}
 
 events_json_dict["stage"][
     "Description"
@@ -430,7 +459,6 @@ changes += [
     "Updated events.json, and improved the documentation therein",
     "Added HED tags to events.json file",
 ]
-
 
 # %% Update contents of CHANGES
 
