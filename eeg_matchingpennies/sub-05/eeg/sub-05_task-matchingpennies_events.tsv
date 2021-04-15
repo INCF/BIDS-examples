@@ -1,901 +1,301 @@
-onset	duration	trial_type	response_time	stim_file	value	sample	stage	trial	bci_prediction	bci_prediction_valid	n_repeated	latency
-15.038933333332999	n/a	right	116.666666667	left_hand.png	n/a	n/a	1	1	right	1	2	-4.2
-18.038933333333	n/a	right	116.666666667	left_hand.png	n/a	n/a	1	1	right	1	2	-4.2
-18.1556	0	right	116.666666667	left_hand.png	2	90778	1	1	right	1	2	-4.2
-19.8922	n/a	right	100.0	right_hand.png	n/a	n/a	1	2	left	1	2	-2.4
-22.8922	n/a	right	100.0	right_hand.png	n/a	n/a	1	2	left	1	2	-2.4
-22.9922	0	right	100.0	right_hand.png	2	114961	1	2	left	1	2	-2.4
-24.5304666666667	n/a	left	33.3333333333	right_hand.png	n/a	n/a	1	3	left	1	2	-17.2
-27.5304666666667	n/a	left	33.3333333333	right_hand.png	n/a	n/a	1	3	left	1	2	-17.2
-27.5638	0	left	33.3333333333	right_hand.png	1	137819	1	3	left	1	2	-17.2
-32.6353333333333	n/a	right	16.6666666667	right_hand.png	n/a	n/a	1	4	left	1	3	9.8
-35.6353333333333	n/a	right	16.6666666667	right_hand.png	n/a	n/a	1	4	left	1	3	9.8
-35.652	0	right	16.6666666667	right_hand.png	2	178260	1	4	left	1	3	9.8
-37.1927333333333	n/a	right	66.6666666667	left_hand.png	n/a	n/a	1	5	right	1	3	-15.2
-40.1927333333333	n/a	right	66.6666666667	left_hand.png	n/a	n/a	1	5	right	1	3	-15.2
-40.2594	0	right	66.6666666667	left_hand.png	2	201297	1	5	right	1	3	-15.2
-45.916199999999996	n/a	left	100.0	left_hand.png	n/a	n/a	1	6	right	1	5	-16.8
-48.916199999999996	n/a	left	100.0	left_hand.png	n/a	n/a	1	6	right	1	5	-16.8
-49.0162	0	left	100.0	left_hand.png	1	245081	1	6	right	1	5	-16.8
-54.7898666666667	n/a	right	33.3333333333	left_hand.png	n/a	n/a	1	7	right	1	7	-43.0
-57.7898666666667	n/a	right	33.3333333333	left_hand.png	n/a	n/a	1	7	right	1	7	-43.0
-57.8232	0	right	33.3333333333	left_hand.png	2	289116	1	7	right	1	7	-43.0
-59.3561333333333	n/a	right	16.6666666667	left_hand.png	n/a	n/a	1	8	right	1	7	-10.2
-62.3561333333333	n/a	right	16.6666666667	left_hand.png	n/a	n/a	1	8	right	1	7	-10.2
-62.3728	0	right	16.6666666667	left_hand.png	2	311864	1	8	right	1	7	-10.2
-64.57713333333331	n/a	left	16.6666666667	left_hand.png	n/a	n/a	1	9	right	1	8	-8.8
-67.57713333333331	n/a	left	16.6666666667	left_hand.png	n/a	n/a	1	9	right	1	8	-8.8
-67.5938	0	left	16.6666666667	left_hand.png	1	337969	1	9	right	1	8	-8.8
-77.08573333333331	n/a	right	16.6666666667	right_hand.png	n/a	n/a	1	10	left	1	9	1.0
-80.08573333333331	n/a	right	16.6666666667	right_hand.png	n/a	n/a	1	10	left	1	9	1.0
-80.1024	0	right	16.6666666667	right_hand.png	2	400512	1	10	left	1	9	1.0
-81.63946666666669	n/a	left	33.3333333333	right_hand.png	n/a	n/a	1	11	left	1	9	-38.2
-84.63946666666669	n/a	left	33.3333333333	right_hand.png	n/a	n/a	1	11	left	1	9	-38.2
-84.6728	0	left	33.3333333333	right_hand.png	1	423364	1	11	left	1	9	-38.2
-86.2138	n/a	left	100.0	left_hand.png	n/a	n/a	1	12	right	1	9	-20.0
-89.2138	n/a	left	100.0	left_hand.png	n/a	n/a	1	12	right	1	9	-20.0
-89.3138	0	left	100.0	left_hand.png	1	446569	1	12	right	1	9	-20.0
-90.84673333333329	n/a	right	66.6666666667	right_hand.png	n/a	n/a	1	13	left	1	9	-11.6
-93.84673333333329	n/a	right	66.6666666667	right_hand.png	n/a	n/a	1	13	left	1	9	-11.6
-93.9134	0	right	66.6666666667	right_hand.png	2	469567	1	13	left	1	9	-11.6
-95.4542	n/a	left	100.0	right_hand.png	n/a	n/a	1	14	left	1	9	-18.8
-98.4542	n/a	left	100.0	right_hand.png	n/a	n/a	1	14	left	1	9	-18.8
-98.5542	0	left	100.0	right_hand.png	1	492771	1	14	left	1	9	-18.8
-103.53920000000001	n/a	right	50.0	left_hand.png	n/a	n/a	1	15	right	1	10	2.0
-106.53920000000001	n/a	right	50.0	left_hand.png	n/a	n/a	1	15	right	1	10	2.0
-106.5892	0	right	50.0	left_hand.png	2	532946	1	15	right	1	10	2.0
-108.1261333333333	n/a	right	16.6666666667	right_hand.png	n/a	n/a	1	16	left	1	10	-13.4
-111.1261333333333	n/a	right	16.6666666667	right_hand.png	n/a	n/a	1	16	left	1	10	-13.4
-111.1428	0	right	16.6666666667	right_hand.png	2	555714	1	16	left	1	10	-13.4
-112.6802666666667	n/a	right	83.3333333333	right_hand.png	n/a	n/a	1	17	left	1	10	0.6
-115.6802666666667	n/a	right	83.3333333333	right_hand.png	n/a	n/a	1	17	left	1	10	0.6
-115.7636	0	right	83.3333333333	right_hand.png	2	578818	1	17	left	1	10	0.6
-117.2997333333333	n/a	right	66.6666666667	right_hand.png	n/a	n/a	1	18	left	1	10	-19.8
-120.2997333333333	n/a	right	66.6666666667	right_hand.png	n/a	n/a	1	18	left	1	10	-19.8
-120.3664	0	right	66.6666666667	right_hand.png	2	601832	1	18	left	1	10	-19.8
-121.903466666667	n/a	right	133.33333333299998	left_hand.png	n/a	n/a	1	19	right	1	10	-12.4
-124.903466666667	n/a	right	133.33333333299998	left_hand.png	n/a	n/a	1	19	right	1	10	-12.4
-125.0368	0	right	133.33333333299998	left_hand.png	2	625184	1	19	right	1	10	-12.4
-126.57366666666672	n/a	left	83.3333333333	right_hand.png	n/a	n/a	1	20	left	1	10	-17.6
-129.57366666666672	n/a	left	83.3333333333	right_hand.png	n/a	n/a	1	20	left	1	10	-17.6
-129.657	0	left	83.3333333333	right_hand.png	1	648285	1	20	left	1	10	-17.6
-131.1980666666667	n/a	left	33.3333333333	right_hand.png	n/a	n/a	1	21	left	1	10	-35.2
-134.1980666666667	n/a	left	33.3333333333	right_hand.png	n/a	n/a	1	21	left	1	10	-35.2
-134.2314	0	left	33.3333333333	right_hand.png	1	671157	1	21	left	1	10	-35.2
-139.2878	n/a	left	150.0	left_hand.png	n/a	n/a	1	22	right	1	11	-1.2
-142.2878	n/a	left	150.0	left_hand.png	n/a	n/a	1	22	right	1	11	-1.2
-142.4378	0	left	150.0	left_hand.png	1	712189	1	22	right	1	11	-1.2
-143.9701333333333	n/a	right	66.6666666667	left_hand.png	n/a	n/a	1	23	right	1	11	-16.8
-146.9701333333333	n/a	right	66.6666666667	left_hand.png	n/a	n/a	1	23	right	1	11	-16.8
-147.0368	0	right	66.6666666667	left_hand.png	2	735184	1	23	right	1	11	-16.8
-148.573933333333	n/a	right	116.666666667	left_hand.png	n/a	n/a	1	24	right	1	11	-9.6
-151.573933333333	n/a	right	116.666666667	left_hand.png	n/a	n/a	1	24	right	1	11	-9.6
-151.6906	0	right	116.666666667	left_hand.png	2	758453	1	24	right	1	11	-9.6
-153.2274666666667	n/a	left	33.3333333333	right_hand.png	n/a	n/a	1	25	left	1	11	2.6
-156.2274666666667	n/a	left	33.3333333333	right_hand.png	n/a	n/a	1	25	left	1	11	2.6
-156.2608	0	left	33.3333333333	right_hand.png	1	781304	1	25	left	1	11	2.6
-157.79739999999998	n/a	right	50.0	right_hand.png	n/a	n/a	1	26	left	1	11	-7.6
-160.79739999999998	n/a	right	50.0	right_hand.png	n/a	n/a	1	26	left	1	11	-7.6
-160.8474	0	right	50.0	right_hand.png	2	804237	1	26	left	1	11	-7.6
-162.3842666666667	n/a	right	33.3333333333	right_hand.png	n/a	n/a	1	27	left	1	11	-15.0
-165.3842666666667	n/a	right	33.3333333333	right_hand.png	n/a	n/a	1	27	left	1	11	-15.0
-165.4176	0	right	33.3333333333	right_hand.png	2	827088	1	27	left	1	11	-15.0
-166.95533333333302	n/a	right	116.666666667	right_hand.png	n/a	n/a	1	28	left	1	11	-10.2
-169.95533333333302	n/a	right	116.666666667	right_hand.png	n/a	n/a	1	28	left	1	11	-10.2
-170.072	0	right	116.666666667	right_hand.png	2	850360	1	28	left	1	11	-10.2
-171.60846666666671	n/a	left	83.3333333333	left_hand.png	n/a	n/a	1	29	right	1	11	-3.0
-174.60846666666671	n/a	left	83.3333333333	left_hand.png	n/a	n/a	1	29	right	1	11	-3.0
-174.6918	0	left	83.3333333333	left_hand.png	1	873459	1	29	right	1	11	-3.0
-176.2281333333333	n/a	left	16.6666666667	left_hand.png	n/a	n/a	1	30	right	1	11	-15.4
-179.2281333333333	n/a	left	16.6666666667	left_hand.png	n/a	n/a	1	30	right	1	11	-15.4
-179.2448	0	left	16.6666666667	left_hand.png	1	896224	1	30	right	1	11	-15.4
-180.786	n/a	left	100.0	right_hand.png	n/a	n/a	1	31	left	1	11	-14.6
-183.786	n/a	left	100.0	right_hand.png	n/a	n/a	1	31	left	1	11	-14.6
-183.886	0	left	100.0	right_hand.png	1	919430	1	31	left	1	11	-14.6
-185.4186	n/a	right	50.0	right_hand.png	n/a	n/a	1	32	left	1	11	-26.0
-188.4186	n/a	right	50.0	right_hand.png	n/a	n/a	1	32	left	1	11	-26.0
-188.4686	0	right	50.0	right_hand.png	2	942343	1	32	left	1	11	-26.0
-190.0054	n/a	right	100.0	right_hand.png	n/a	n/a	1	33	left	1	11	-3.6
-193.0054	n/a	right	100.0	right_hand.png	n/a	n/a	1	33	left	1	11	-3.6
-193.1054	0	right	100.0	right_hand.png	2	965527	1	33	left	1	11	-3.6
-194.6466666666667	n/a	right	83.3333333333	right_hand.png	n/a	n/a	1	34	left	1	11	-20.2
-197.6466666666667	n/a	right	83.3333333333	right_hand.png	n/a	n/a	1	34	left	1	11	-20.2
-197.73	0	right	83.3333333333	right_hand.png	2	988650	1	34	left	1	11	-20.2
-199.2621333333333	n/a	right	66.6666666667	right_hand.png	n/a	n/a	1	35	left	1	11	-36.6
-202.2621333333333	n/a	right	66.6666666667	right_hand.png	n/a	n/a	1	35	left	1	11	-36.6
-202.3288	0	right	66.6666666667	right_hand.png	2	1011644	1	35	left	1	11	-36.6
-207.3688	n/a	right	150.0	right_hand.png	n/a	n/a	1	36	left	1	12	-34.6
-210.3688	n/a	right	150.0	right_hand.png	n/a	n/a	1	36	left	1	12	-34.6
-210.5188	0	right	150.0	right_hand.png	2	1052594	1	36	left	1	12	-34.6
-212.0559333333333	n/a	left	16.6666666667	right_hand.png	n/a	n/a	1	37	left	1	12	-31.6
-215.0559333333333	n/a	left	16.6666666667	right_hand.png	n/a	n/a	1	37	left	1	12	-31.6
-215.0726	0	left	16.6666666667	right_hand.png	1	1075363	1	37	left	1	12	-31.6
-216.6096	n/a	right	100.0	left_hand.png	n/a	n/a	1	38	right	1	12	-9.4
-219.6096	n/a	right	100.0	left_hand.png	n/a	n/a	1	38	right	1	12	-9.4
-219.7096	0	right	100.0	left_hand.png	2	1098548	1	38	right	1	12	-9.4
-221.24666666666673	n/a	left	83.3333333333	right_hand.png	n/a	n/a	1	39	left	1	12	-34.4
-224.24666666666673	n/a	left	83.3333333333	right_hand.png	n/a	n/a	1	39	left	1	12	-34.4
-224.33	0	left	83.3333333333	right_hand.png	1	1121650	1	39	left	1	12	-34.4
-225.8705333333333	n/a	left	66.6666666667	right_hand.png	n/a	n/a	1	40	left	1	12	-16.0
-228.8705333333333	n/a	left	66.6666666667	right_hand.png	n/a	n/a	1	40	left	1	12	-16.0
-228.9372	0	left	66.6666666667	right_hand.png	1	1144686	1	40	left	1	12	-16.0
-230.47400000000002	n/a	right	100.0	left_hand.png	n/a	n/a	1	41	right	1	12	-24.2
-233.47400000000002	n/a	right	100.0	left_hand.png	n/a	n/a	1	41	right	1	12	-24.2
-233.574	0	right	100.0	left_hand.png	2	1167870	1	41	right	1	12	-24.2
-235.11073333333331	n/a	right	66.6666666667	left_hand.png	n/a	n/a	1	42	right	1	12	-19.6
-238.11073333333331	n/a	right	66.6666666667	left_hand.png	n/a	n/a	1	42	right	1	12	-19.6
-238.1774	0	right	66.6666666667	left_hand.png	2	1190887	1	42	right	1	12	-19.6
-239.7100666666667	n/a	right	83.3333333333	left_hand.png	n/a	n/a	1	43	right	1	12	-2.0
-242.7100666666667	n/a	right	83.3333333333	left_hand.png	n/a	n/a	1	43	right	1	12	-2.0
-242.7934	0	right	83.3333333333	left_hand.png	2	1213967	1	43	right	1	12	-2.0
-244.3346	n/a	left	150.0	right_hand.png	n/a	n/a	1	44	left	1	12	-34.0
-247.3346	n/a	left	150.0	right_hand.png	n/a	n/a	1	44	left	1	12	-34.0
-247.4846	0	left	150.0	right_hand.png	1	1237423	1	44	left	1	12	-34.0
-249.02146666666673	n/a	right	83.3333333333	right_hand.png	n/a	n/a	1	45	left	1	12	5.0
-252.02146666666673	n/a	right	83.3333333333	right_hand.png	n/a	n/a	1	45	left	1	12	5.0
-252.1048	0	right	83.3333333333	right_hand.png	2	1260524	1	45	left	1	12	5.0
-257.11126666666667	n/a	left	83.3333333333	left_hand.png	n/a	n/a	1	46	right	1	13	-3.0
-260.11126666666667	n/a	left	83.3333333333	left_hand.png	n/a	n/a	1	46	right	1	13	-3.0
-260.1946	0	left	83.3333333333	left_hand.png	1	1300973	1	46	right	1	13	-3.0
-261.72746666666666	n/a	left	83.3333333333	right_hand.png	n/a	n/a	1	47	left	1	13	-3.4
-264.72746666666666	n/a	left	83.3333333333	right_hand.png	n/a	n/a	1	47	left	1	13	-3.4
-264.8108	0	left	83.3333333333	right_hand.png	1	1324054	1	47	left	1	13	-3.4
-266.3471333333333	n/a	right	16.6666666667	left_hand.png	n/a	n/a	1	48	right	1	13	0.4
-269.3471333333333	n/a	right	16.6666666667	left_hand.png	n/a	n/a	1	48	right	1	13	0.4
-269.3638	0	right	16.6666666667	left_hand.png	2	1346819	1	48	right	1	13	0.4
-270.9002	n/a	right	50.0	left_hand.png	n/a	n/a	1	49	right	1	13	-6.2
-273.9002	n/a	right	50.0	left_hand.png	n/a	n/a	1	49	right	1	13	-6.2
-273.9502	0	right	50.0	left_hand.png	2	1369751	1	49	right	1	13	-6.2
-275.4874	n/a	left	50.0	left_hand.png	n/a	n/a	1	50	right	1	13	-31.8
-278.4874	n/a	left	50.0	left_hand.png	n/a	n/a	1	50	right	1	13	-31.8
-278.5374	0	left	50.0	left_hand.png	1	1392687	1	50	right	1	13	-31.8
-280.0782	n/a	left	100.0	right_hand.png	n/a	n/a	1	51	left	1	13	-15.6
-283.0782	n/a	left	100.0	right_hand.png	n/a	n/a	1	51	left	1	13	-15.6
-283.1782	0	left	100.0	right_hand.png	1	1415891	1	51	left	1	13	-15.6
-284.7154666666667	n/a	left	83.3333333333	right_hand.png	n/a	n/a	1	52	left	1	13	-2.6
-287.7154666666667	n/a	left	83.3333333333	right_hand.png	n/a	n/a	1	52	left	1	13	-2.6
-287.7988	0	left	83.3333333333	right_hand.png	1	1438994	1	52	left	1	13	-2.6
-289.33133333333296	n/a	left	116.666666667	left_hand.png	n/a	n/a	1	53	right	1	13	-8.6
-292.33133333333296	n/a	left	116.666666667	left_hand.png	n/a	n/a	1	53	right	1	13	-8.6
-292.448	0	left	116.666666667	left_hand.png	1	1462240	1	53	right	1	13	-8.6
-293.985333333333	n/a	left	116.666666667	right_hand.png	n/a	n/a	1	54	left	1	13	12.6
-296.985333333333	n/a	left	116.666666667	right_hand.png	n/a	n/a	1	54	left	1	13	12.6
-297.10200000000003	0	left	116.666666667	right_hand.png	1	1485510	1	54	left	1	13	12.6
-298.64279999999997	n/a	left	50.0	left_hand.png	n/a	n/a	1	55	right	1	13	-2.4
-301.64279999999997	n/a	left	50.0	left_hand.png	n/a	n/a	1	55	right	1	13	-2.4
-301.6928	0	left	50.0	left_hand.png	1	1508464	1	55	right	1	13	-2.4
-303.224933333333	n/a	left	116.666666667	left_hand.png	n/a	n/a	1	56	right	1	13	3.4
-306.224933333333	n/a	left	116.666666667	left_hand.png	n/a	n/a	1	56	right	1	13	3.4
-306.3416	0	left	116.666666667	left_hand.png	1	1531708	1	56	right	1	13	3.4
-307.8839333333333	n/a	left	66.6666666667	left_hand.png	n/a	n/a	1	57	right	1	13	-12.0
-310.8839333333333	n/a	left	66.6666666667	left_hand.png	n/a	n/a	1	57	right	1	13	-12.0
-310.9506	0	left	66.6666666667	left_hand.png	1	1554753	1	57	right	1	13	-12.0
-312.4819333333333	n/a	left	16.6666666667	right_hand.png	n/a	n/a	1	58	left	1	13	-3.2
-315.4819333333333	n/a	left	16.6666666667	right_hand.png	n/a	n/a	1	58	left	1	13	-3.2
-315.4986	0	left	16.6666666667	right_hand.png	1	1577493	1	58	left	1	13	-3.2
-317.03659999999996	n/a	right	100.0	left_hand.png	n/a	n/a	1	59	right	1	13	-18.4
-320.03659999999996	n/a	right	100.0	left_hand.png	n/a	n/a	1	59	right	1	13	-18.4
-320.1366	0	right	100.0	left_hand.png	2	1600683	1	59	right	1	13	-18.4
-321.67266666666666	n/a	left	83.3333333333	left_hand.png	n/a	n/a	1	60	right	1	13	6.6
-324.67266666666666	n/a	left	83.3333333333	left_hand.png	n/a	n/a	1	60	right	1	13	6.6
-324.756	0	left	83.3333333333	left_hand.png	1	1623780	1	60	right	1	13	6.6
-326.2966666666667	n/a	left	33.3333333333	left_hand.png	n/a	n/a	1	61	right	1	13	-36.2
-329.2966666666667	n/a	left	33.3333333333	left_hand.png	n/a	n/a	1	61	right	1	13	-36.2
-329.33	0	left	33.3333333333	left_hand.png	1	1646650	1	61	right	1	13	-36.2
-330.8628666666667	n/a	left	33.3333333333	left_hand.png	n/a	n/a	1	62	right	1	13	5.6
-333.8628666666667	n/a	left	33.3333333333	left_hand.png	n/a	n/a	1	62	right	1	13	5.6
-333.8962	0	left	33.3333333333	left_hand.png	1	1669481	1	62	right	1	13	5.6
-335.4333333333333	n/a	right	66.6666666667	left_hand.png	n/a	n/a	1	63	right	1	13	-11.0
-338.4333333333333	n/a	right	66.6666666667	left_hand.png	n/a	n/a	1	63	right	1	13	-11.0
-338.5	0	right	66.6666666667	left_hand.png	2	1692500	1	63	right	1	13	-11.0
-340.03679999999997	n/a	right	100.0	left_hand.png	n/a	n/a	1	64	right	1	13	-34.4
-343.03679999999997	n/a	right	100.0	left_hand.png	n/a	n/a	1	64	right	1	13	-34.4
-343.1368	0	right	100.0	left_hand.png	2	1715684	1	64	right	1	13	-34.4
-344.6737333333333	n/a	left	66.6666666667	right_hand.png	n/a	n/a	1	65	left	1	13	-15.2
-347.6737333333333	n/a	left	66.6666666667	right_hand.png	n/a	n/a	1	65	left	1	13	-15.2
-347.7404	0	left	66.6666666667	right_hand.png	1	1738702	1	65	left	1	13	-15.2
-349.2770666666667	n/a	right	33.3333333333	left_hand.png	n/a	n/a	1	66	right	1	13	-2.2
-352.2770666666667	n/a	right	33.3333333333	left_hand.png	n/a	n/a	1	66	right	1	13	-2.2
-352.3104	0	right	33.3333333333	left_hand.png	2	1761552	1	66	right	1	13	-2.2
-353.8472666666667	n/a	left	33.3333333333	left_hand.png	n/a	n/a	1	67	right	1	13	-41.2
-356.8472666666667	n/a	left	33.3333333333	left_hand.png	n/a	n/a	1	67	right	1	13	-41.2
-356.8806	0	left	33.3333333333	left_hand.png	1	1784403	1	67	right	1	13	-41.2
-358.4174666666667	n/a	right	83.3333333333	right_hand.png	n/a	n/a	1	68	left	1	13	-2.2
-361.4174666666667	n/a	right	83.3333333333	right_hand.png	n/a	n/a	1	68	left	1	13	-2.2
-361.5008	0	right	83.3333333333	right_hand.png	2	1807504	1	68	left	1	13	-2.2
-363.0382666666667	n/a	right	83.3333333333	left_hand.png	n/a	n/a	1	69	right	1	13	-15.0
-366.0382666666667	n/a	right	83.3333333333	left_hand.png	n/a	n/a	1	69	right	1	13	-15.0
-366.1216	0	right	83.3333333333	left_hand.png	2	1830608	1	69	right	1	13	-15.0
-367.6598666666667	n/a	left	83.3333333333	right_hand.png	n/a	n/a	1	70	left	1	13	0.8
-370.6598666666667	n/a	left	83.3333333333	right_hand.png	n/a	n/a	1	70	left	1	13	0.8
-370.7432	0	left	83.3333333333	right_hand.png	1	1853716	1	70	left	1	13	0.8
-372.2792666666667	n/a	right	33.3333333333	left_hand.png	n/a	n/a	1	71	right	1	13	-15.6
-375.2792666666667	n/a	right	33.3333333333	left_hand.png	n/a	n/a	1	71	right	1	13	-15.6
-375.3126	0	right	33.3333333333	left_hand.png	2	1876563	1	71	right	1	13	-15.6
-376.89453333333296	n/a	right	116.666666667	right_hand.png	n/a	n/a	1	72	left	1	13	-29.4
-379.89453333333296	n/a	right	116.666666667	right_hand.png	n/a	n/a	1	72	left	1	13	-29.4
-380.0112	0	right	116.666666667	right_hand.png	2	1900056	1	72	left	1	13	-29.4
-385.0920666666667	n/a	right	33.3333333333	left_hand.png	n/a	n/a	1	73	right	1	14	-28.4
-388.0920666666667	n/a	right	33.3333333333	left_hand.png	n/a	n/a	1	73	right	1	14	-28.4
-388.1254	0	right	33.3333333333	left_hand.png	2	1940627	1	73	right	1	14	-28.4
-389.66220000000004	n/a	left	150.0	right_hand.png	n/a	n/a	1	74	left	1	14	-4.8
-392.66220000000004	n/a	left	150.0	right_hand.png	n/a	n/a	1	74	left	1	14	-4.8
-392.8122	0	left	150.0	right_hand.png	1	1964061	1	74	left	1	14	-4.8
-394.34913333333327	n/a	right	16.6666666667	left_hand.png	n/a	n/a	1	75	right	1	14	-27.2
-397.34913333333327	n/a	right	16.6666666667	left_hand.png	n/a	n/a	1	75	right	1	14	-27.2
-397.3658	0	right	16.6666666667	left_hand.png	2	1986829	1	75	right	1	14	-27.2
-398.902666666667	n/a	right	183.33333333299998	left_hand.png	n/a	n/a	1	76	right	1	14	-19.2
-401.902666666667	n/a	right	183.33333333299998	left_hand.png	n/a	n/a	1	76	right	1	14	-19.2
-402.086	0	right	183.33333333299998	left_hand.png	2	2010430	1	76	right	1	14	-19.2
-403.622866666667	n/a	left	133.33333333299998	left_hand.png	n/a	n/a	1	77	right	1	14	-8.2
-406.622866666667	n/a	left	133.33333333299998	left_hand.png	n/a	n/a	1	77	right	1	14	-8.2
-406.7562	0	left	133.33333333299998	left_hand.png	1	2033781	1	77	right	1	14	-8.2
-408.2932	n/a	left	150.0	left_hand.png	n/a	n/a	1	78	right	1	14	1.0
-411.2932	n/a	left	150.0	left_hand.png	n/a	n/a	1	78	right	1	14	1.0
-411.4432	0	left	150.0	left_hand.png	1	2057216	1	78	right	1	14	1.0
-417.21226666666666	n/a	left	83.3333333333	right_hand.png	n/a	n/a	1	79	left	1	15	-19.4
-420.21226666666666	n/a	left	83.3333333333	right_hand.png	n/a	n/a	1	79	left	1	15	-19.4
-420.2956	0	left	83.3333333333	right_hand.png	1	2101478	1	79	left	1	15	-19.4
-421.83353333333326	n/a	right	66.6666666667	right_hand.png	n/a	n/a	1	80	left	1	15	-16.0
-424.83353333333326	n/a	right	66.6666666667	right_hand.png	n/a	n/a	1	80	left	1	15	-16.0
-424.9002	0	right	66.6666666667	right_hand.png	2	2124501	1	80	left	1	15	-16.0
-426.4404	n/a	right	50.0	left_hand.png	n/a	n/a	1	81	right	1	15	-33.4
-429.4404	n/a	right	50.0	left_hand.png	n/a	n/a	1	81	right	1	15	-33.4
-429.4904	0	right	50.0	left_hand.png	2	2147452	1	81	right	1	15	-33.4
-431.0270666666667	n/a	left	33.3333333333	left_hand.png	n/a	n/a	1	82	right	1	15	-11.4
-434.0270666666667	n/a	left	33.3333333333	left_hand.png	n/a	n/a	1	82	right	1	15	-11.4
-434.0604	0	left	33.3333333333	left_hand.png	1	2170302	1	82	right	1	15	-11.4
-439.61706666666703	n/a	right	133.33333333299998	right_hand.png	n/a	n/a	1	83	left	1	16	2.6
-442.61706666666703	n/a	right	133.33333333299998	right_hand.png	n/a	n/a	1	83	left	1	16	2.6
-442.7504	0	right	133.33333333299998	right_hand.png	2	2213752	1	83	left	1	16	2.6
-444.28746666666666	n/a	left	83.3333333333	right_hand.png	n/a	n/a	1	84	left	1	16	-35.4
-447.28746666666666	n/a	left	83.3333333333	right_hand.png	n/a	n/a	1	84	left	1	16	-35.4
-447.3708	0	left	83.3333333333	right_hand.png	1	2236854	1	84	left	1	16	-35.4
-448.9075333333333	n/a	right	66.6666666667	left_hand.png	n/a	n/a	1	85	right	1	16	-30.8
-451.9075333333333	n/a	right	66.6666666667	left_hand.png	n/a	n/a	1	85	right	1	16	-30.8
-451.9742	0	right	66.6666666667	left_hand.png	2	2259871	1	85	right	1	16	-30.8
-453.5442	n/a	left	100.0	right_hand.png	n/a	n/a	1	86	left	1	16	5.6
-456.5442	n/a	left	100.0	right_hand.png	n/a	n/a	1	86	left	1	16	5.6
-456.6442	0	left	100.0	right_hand.png	1	2283221	1	86	left	1	16	5.6
-458.1813333333333	n/a	left	66.6666666667	left_hand.png	n/a	n/a	1	87	right	1	16	-1.0
-461.1813333333333	n/a	left	66.6666666667	left_hand.png	n/a	n/a	1	87	right	1	16	-1.0
-461.24800000000005	0	left	66.6666666667	left_hand.png	1	2306240	1	87	right	1	16	-1.0
-462.78146666666703	n/a	left	133.33333333299998	left_hand.png	n/a	n/a	1	88	right	1	16	-19.4
-465.78146666666703	n/a	left	133.33333333299998	left_hand.png	n/a	n/a	1	88	right	1	16	-19.4
-465.9148	0	left	133.33333333299998	left_hand.png	1	2329574	1	88	right	1	16	-19.4
-467.4516666666667	n/a	right	83.3333333333	left_hand.png	n/a	n/a	1	89	right	1	16	-24.8
-470.4516666666667	n/a	right	83.3333333333	left_hand.png	n/a	n/a	1	89	right	1	16	-24.8
-470.535	0	right	83.3333333333	left_hand.png	2	2352675	1	89	right	1	16	-24.8
-472.0725333333333	n/a	right	66.6666666667	left_hand.png	n/a	n/a	1	90	right	1	16	23.4
-475.0725333333333	n/a	right	66.6666666667	left_hand.png	n/a	n/a	1	90	right	1	16	23.4
-475.1392	0	right	66.6666666667	left_hand.png	2	2375696	1	90	right	1	16	23.4
-476.6787333333333	n/a	left	66.6666666667	right_hand.png	n/a	n/a	1	91	left	1	16	-0.4
-479.6787333333333	n/a	left	66.6666666667	right_hand.png	n/a	n/a	1	91	left	1	16	-0.4
-479.7454	0	left	66.6666666667	right_hand.png	1	2398727	1	91	left	1	16	-0.4
-481.2822	n/a	left	100.0	right_hand.png	n/a	n/a	1	92	left	1	16	-21.6
-484.2822	n/a	left	100.0	right_hand.png	n/a	n/a	1	92	left	1	16	-21.6
-484.3822	0	left	100.0	right_hand.png	1	2421911	1	92	left	1	16	-21.6
-485.9190666666667	n/a	left	83.3333333333	left_hand.png	n/a	n/a	1	93	right	1	16	2.6
-488.9190666666667	n/a	left	83.3333333333	left_hand.png	n/a	n/a	1	93	right	1	16	2.6
-489.0024	0	left	83.3333333333	left_hand.png	1	2445012	1	93	right	1	16	2.6
-490.5392666666667	n/a	right	33.3333333333	right_hand.png	n/a	n/a	1	94	left	1	16	-29.2
-493.5392666666667	n/a	right	33.3333333333	right_hand.png	n/a	n/a	1	94	left	1	16	-29.2
-493.5726	0	right	33.3333333333	right_hand.png	2	2467863	1	94	left	1	16	-29.2
-495.1096666666667	n/a	right	83.3333333333	right_hand.png	n/a	n/a	1	95	left	1	16	-4.4
-498.1096666666667	n/a	right	83.3333333333	right_hand.png	n/a	n/a	1	95	left	1	16	-4.4
-498.19300000000004	0	right	83.3333333333	right_hand.png	2	2490965	1	95	left	1	16	-4.4
-499.729733333333	n/a	right	116.666666667	right_hand.png	n/a	n/a	1	96	left	1	16	-10.2
-502.729733333333	n/a	right	116.666666667	right_hand.png	n/a	n/a	1	96	left	1	16	-10.2
-502.8464	0	right	116.666666667	right_hand.png	2	2514232	1	96	left	1	16	-10.2
-504.3832	n/a	left	50.0	left_hand.png	n/a	n/a	1	97	right	1	16	-14.6
-507.3832	n/a	left	50.0	left_hand.png	n/a	n/a	1	97	right	1	16	-14.6
-507.4332	0	left	50.0	left_hand.png	1	2537166	1	97	right	1	16	-14.6
-512.519466666667	n/a	left	133.33333333299998	right_hand.png	n/a	n/a	1	98	left	1	17	9.0
-515.519466666667	n/a	left	133.33333333299998	right_hand.png	n/a	n/a	1	98	left	1	17	9.0
-515.6528	0	left	133.33333333299998	right_hand.png	1	2578264	1	98	left	1	17	9.0
-517.1899999999999	n/a	right	100.0	right_hand.png	n/a	n/a	1	99	left	1	17	-31.0
-520.1899999999999	n/a	right	100.0	right_hand.png	n/a	n/a	1	99	left	1	17	-31.0
-520.29	0	right	100.0	right_hand.png	2	2601450	1	99	left	1	17	-31.0
-521.8269333333333	n/a	left	66.6666666667	left_hand.png	n/a	n/a	1	100	right	1	17	-11.8
-524.8269333333333	n/a	left	66.6666666667	left_hand.png	n/a	n/a	1	100	right	1	17	-11.8
-524.8936	0	left	66.6666666667	left_hand.png	1	2624468	1	100	right	1	17	-11.8
-737.4735333333333	n/a	right	66.6666666667	left_hand.png	n/a	n/a	2	1	right	1	1	-33.6
-740.4735333333333	n/a	right	66.6666666667	left_hand.png	n/a	n/a	2	1	right	1	1	-33.6
-740.5402	0	right	66.6666666667	left_hand.png	2	3702701	2	1	right	1	1	-33.6
-742.0772000000001	n/a	right	50.0	right_hand.png	n/a	n/a	2	2	left	1	1	-38.2
-745.0772000000001	n/a	right	50.0	right_hand.png	n/a	n/a	2	2	left	1	1	-38.2
-745.1272	0	right	50.0	right_hand.png	2	3725636	2	2	left	1	1	-38.2
-746.6638	n/a	right	50.0	right_hand.png	n/a	n/a	2	3	left	1	1	-16.8
-749.6638	n/a	right	50.0	right_hand.png	n/a	n/a	2	3	left	1	1	-16.8
-749.7138	0	right	50.0	right_hand.png	2	3748569	2	3	left	1	1	-16.8
-751.2506666666667	n/a	left	33.3333333333	left_hand.png	n/a	n/a	2	4	right	1	1	-30.2
-754.2506666666667	n/a	left	33.3333333333	left_hand.png	n/a	n/a	2	4	right	1	1	-30.2
-754.284	0	left	33.3333333333	left_hand.png	1	3771420	2	4	right	1	1	-30.2
-755.821	n/a	right	100.0	left_hand.png	n/a	n/a	2	5	right	1	1	-8.0
-758.821	n/a	right	100.0	left_hand.png	n/a	n/a	2	5	right	1	1	-8.0
-758.921	0	right	100.0	left_hand.png	2	3794605	2	5	right	1	1	-8.0
-763.9768666666668	n/a	left	83.3333333333	left_hand.png	n/a	n/a	2	6	right	1	2	-6.4
-766.9768666666668	n/a	left	83.3333333333	left_hand.png	n/a	n/a	2	6	right	1	2	-6.4
-767.0602	0	left	83.3333333333	left_hand.png	1	3835301	2	6	right	1	2	-6.4
-768.6480666666668	n/a	right	83.3333333333	left_hand.png	n/a	n/a	2	7	right	1	2	-18.4
-771.6480666666668	n/a	right	83.3333333333	left_hand.png	n/a	n/a	2	7	right	1	2	-18.4
-771.7314	0	right	83.3333333333	left_hand.png	2	3858657	2	7	right	1	2	-18.4
-773.2675333333333	n/a	right	66.6666666667	right_hand.png	n/a	n/a	2	8	left	1	2	-38.8
-776.2675333333333	n/a	right	66.6666666667	right_hand.png	n/a	n/a	2	8	left	1	2	-38.8
-776.3342	0	right	66.6666666667	right_hand.png	2	3881671	2	8	left	1	2	-38.8
-777.8708	n/a	left	50.0	left_hand.png	n/a	n/a	2	9	right	1	2	-17.4
-780.8708	n/a	left	50.0	left_hand.png	n/a	n/a	2	9	right	1	2	-17.4
-780.9208	0	left	50.0	left_hand.png	1	3904604	2	9	right	1	2	-17.4
-782.4578666666667	n/a	left	83.3333333333	right_hand.png	n/a	n/a	2	10	left	1	2	-28.8
-785.4578666666667	n/a	left	83.3333333333	right_hand.png	n/a	n/a	2	10	left	1	2	-28.8
-785.5412	0	left	83.3333333333	right_hand.png	1	3927706	2	10	left	1	2	-28.8
-787.0781333333333	n/a	right	66.6666666667	left_hand.png	n/a	n/a	2	11	right	1	2	-29.8
-790.0781333333333	n/a	right	66.6666666667	left_hand.png	n/a	n/a	2	11	right	1	2	-29.8
-790.1448	0	right	66.6666666667	left_hand.png	2	3950724	2	11	right	1	2	-29.8
-791.686133333333	n/a	left	116.666666667	right_hand.png	n/a	n/a	2	12	left	1	2	-10.4
-794.686133333333	n/a	left	116.666666667	right_hand.png	n/a	n/a	2	12	left	1	2	-10.4
-794.8028	0	left	116.666666667	right_hand.png	1	3974014	2	12	left	1	2	-10.4
-796.3395333333333	n/a	left	66.6666666667	left_hand.png	n/a	n/a	2	13	right	1	2	6.0
-799.3395333333333	n/a	left	66.6666666667	left_hand.png	n/a	n/a	2	13	right	1	2	6.0
-799.4062	0	left	66.6666666667	left_hand.png	1	3997031	2	13	right	1	2	6.0
-800.9388	n/a	left	50.0	right_hand.png	n/a	n/a	2	14	left	1	2	-19.8
-803.9388	n/a	left	50.0	right_hand.png	n/a	n/a	2	14	left	1	2	-19.8
-803.9888	0	left	50.0	right_hand.png	1	4019944	2	14	left	1	2	-19.8
-805.5254666666667	n/a	left	83.3333333333	right_hand.png	n/a	n/a	2	15	left	1	2	-6.2
-808.5254666666667	n/a	left	83.3333333333	right_hand.png	n/a	n/a	2	15	left	1	2	-6.2
-808.6088	0	left	83.3333333333	right_hand.png	1	4043044	2	15	left	1	2	-6.2
-810.1502	n/a	left	50.0	right_hand.png	n/a	n/a	2	16	left	1	2	-16.0
-813.1502	n/a	left	50.0	right_hand.png	n/a	n/a	2	16	left	1	2	-16.0
-813.2002	0	left	50.0	right_hand.png	1	4066001	2	16	left	1	2	-16.0
-814.7325999999999	n/a	right	100.0	left_hand.png	n/a	n/a	2	17	right	1	2	-14.0
-817.7325999999999	n/a	right	100.0	left_hand.png	n/a	n/a	2	17	right	1	2	-14.0
-817.8326	0	right	100.0	left_hand.png	2	4089163	2	17	right	1	2	-14.0
-819.3694666666667	n/a	left	33.3333333333	right_hand.png	n/a	n/a	2	18	left	1	2	-1.8
-822.3694666666667	n/a	left	33.3333333333	right_hand.png	n/a	n/a	2	18	left	1	2	-1.8
-822.4028	0	left	33.3333333333	right_hand.png	1	4112014	2	18	left	1	2	-1.8
-823.9395333333333	n/a	right	66.6666666667	right_hand.png	n/a	n/a	2	19	left	1	2	0.0
-826.9395333333333	n/a	right	66.6666666667	right_hand.png	n/a	n/a	2	19	left	1	2	0.0
-827.0062	0	right	66.6666666667	right_hand.png	2	4135031	2	19	left	1	2	0.0
-828.5429333333334	n/a	left	16.6666666667	right_hand.png	n/a	n/a	2	20	left	1	2	-2.8
-831.5429333333334	n/a	left	16.6666666667	right_hand.png	n/a	n/a	2	20	left	1	2	-2.8
-831.5596	0	left	16.6666666667	right_hand.png	1	4157798	2	20	left	1	2	-2.8
-833.0964	n/a	right	50.0	left_hand.png	n/a	n/a	2	21	right	1	2	-17.8
-836.0964	n/a	right	50.0	left_hand.png	n/a	n/a	2	21	right	1	2	-17.8
-836.1464	0	right	50.0	left_hand.png	2	4180732	2	21	right	1	2	-17.8
-837.6876000000001	n/a	left	50.0	right_hand.png	n/a	n/a	2	22	left	1	2	-32.6
-840.6876000000001	n/a	left	50.0	right_hand.png	n/a	n/a	2	22	left	1	2	-32.6
-840.7376	0	left	50.0	right_hand.png	1	4203688	2	22	left	1	2	-32.6
-842.270266666667	n/a	right	133.33333333299998	left_hand.png	n/a	n/a	2	23	right	1	2	-1.6
-845.270266666667	n/a	right	133.33333333299998	left_hand.png	n/a	n/a	2	23	right	1	2	-1.6
-845.4036	0	right	133.33333333299998	left_hand.png	2	4227018	2	23	right	1	2	-1.6
-846.9404666666667	n/a	left	33.3333333333	right_hand.png	n/a	n/a	2	24	left	1	2	-27.2
-849.9404666666667	n/a	left	33.3333333333	right_hand.png	n/a	n/a	2	24	left	1	2	-27.2
-849.9738	0	left	33.3333333333	right_hand.png	1	4249869	2	24	left	1	2	-27.2
-851.5106	n/a	left	100.0	right_hand.png	n/a	n/a	2	25	left	1	2	-4.8
-854.5106	n/a	left	100.0	right_hand.png	n/a	n/a	2	25	left	1	2	-4.8
-854.6106	0	left	100.0	right_hand.png	1	4273053	2	25	left	1	2	-4.8
-856.1474000000001	n/a	right	50.0	left_hand.png	n/a	n/a	2	26	right	1	2	-23.4
-859.1474000000001	n/a	right	50.0	left_hand.png	n/a	n/a	2	26	right	1	2	-23.4
-859.1974	0	right	50.0	left_hand.png	2	4295987	2	26	right	1	2	-23.4
-860.7392	n/a	left	100.0	left_hand.png	n/a	n/a	2	27	right	1	2	-17.4
-863.7392	n/a	left	100.0	left_hand.png	n/a	n/a	2	27	right	1	2	-17.4
-863.8392	0	left	100.0	left_hand.png	1	4319196	2	27	right	1	2	-17.4
-865.3710666666667	n/a	left	33.3333333333	right_hand.png	n/a	n/a	2	28	left	1	2	-21.8
-868.3710666666667	n/a	left	33.3333333333	right_hand.png	n/a	n/a	2	28	left	1	2	-21.8
-868.4044	0	left	33.3333333333	right_hand.png	1	4342022	2	28	left	1	2	-21.8
-869.942066666667	n/a	right	133.33333333299998	left_hand.png	n/a	n/a	2	29	right	1	2	-12.0
-872.942066666667	n/a	right	133.33333333299998	left_hand.png	n/a	n/a	2	29	right	1	2	-12.0
-873.0754	0	right	133.33333333299998	left_hand.png	2	4365377	2	29	right	1	2	-12.0
-874.6116666666667	n/a	left	33.3333333333	left_hand.png	n/a	n/a	2	30	right	1	2	-22.6
-877.6116666666667	n/a	left	33.3333333333	left_hand.png	n/a	n/a	2	30	right	1	2	-22.6
-877.645	0	left	33.3333333333	left_hand.png	1	4388225	2	30	right	1	2	-22.6
-879.1816666666667	n/a	left	33.3333333333	left_hand.png	n/a	n/a	2	31	right	1	2	-12.4
-882.1816666666667	n/a	left	33.3333333333	left_hand.png	n/a	n/a	2	31	right	1	2	-12.4
-882.215	0	left	33.3333333333	left_hand.png	1	4411075	2	31	right	1	2	-12.4
-883.7559333333334	n/a	left	16.6666666667	right_hand.png	n/a	n/a	2	32	left	1	2	-13.2
-886.7559333333334	n/a	left	16.6666666667	right_hand.png	n/a	n/a	2	32	left	1	2	-13.2
-886.7726	0	left	16.6666666667	right_hand.png	1	4433863	2	32	left	1	2	-13.2
-888.305533333333	n/a	left	116.666666667	right_hand.png	n/a	n/a	2	33	left	1	2	-3.6
-891.305533333333	n/a	left	116.666666667	right_hand.png	n/a	n/a	2	33	left	1	2	-3.6
-891.4222	0	left	116.666666667	right_hand.png	1	4457111	2	33	left	1	2	-3.6
-892.9634	n/a	right	100.0	left_hand.png	n/a	n/a	2	34	right	1	2	-11.2
-895.9634	n/a	right	100.0	left_hand.png	n/a	n/a	2	34	right	1	2	-11.2
-896.0634	0	right	100.0	left_hand.png	2	4480317	2	34	right	1	2	-11.2
-897.5957333333333	n/a	left	66.6666666667	left_hand.png	n/a	n/a	2	35	right	1	2	-2.2
-900.5957333333333	n/a	left	66.6666666667	left_hand.png	n/a	n/a	2	35	right	1	2	-2.2
-900.6624	0	left	66.6666666667	left_hand.png	1	4503312	2	35	right	1	2	-2.2
-902.2036666666667	n/a	left	83.3333333333	right_hand.png	n/a	n/a	2	36	left	1	2	-18.8
-905.2036666666667	n/a	left	83.3333333333	right_hand.png	n/a	n/a	2	36	left	1	2	-18.8
-905.2869999999999	0	left	83.3333333333	right_hand.png	1	4526435	2	36	left	1	2	-18.8
-906.8195999999999	n/a	left	100.0	right_hand.png	n/a	n/a	2	37	left	1	2	-17.8
-909.8195999999999	n/a	left	100.0	right_hand.png	n/a	n/a	2	37	left	1	2	-17.8
-909.9196	0	left	100.0	right_hand.png	1	4549598	2	37	left	1	2	-17.8
-911.4562000000001	n/a	left	50.0	left_hand.png	n/a	n/a	2	38	right	1	2	3.6
-914.4562000000001	n/a	left	50.0	left_hand.png	n/a	n/a	2	38	right	1	2	3.6
-914.5062	0	left	50.0	left_hand.png	1	4572531	2	38	right	1	2	3.6
-916.0432666666668	n/a	left	83.3333333333	right_hand.png	n/a	n/a	2	39	left	1	2	-34.4
-919.0432666666668	n/a	left	83.3333333333	right_hand.png	n/a	n/a	2	39	left	1	2	-34.4
-919.1266	0	left	83.3333333333	right_hand.png	1	4595633	2	39	left	1	2	-34.4
-920.6632666666667	n/a	right	83.3333333333	left_hand.png	n/a	n/a	2	40	right	1	2	-9.8
-923.6632666666667	n/a	right	83.3333333333	left_hand.png	n/a	n/a	2	40	right	1	2	-9.8
-923.7466	0	right	83.3333333333	left_hand.png	2	4618733	2	40	right	1	2	-9.8
-925.2843333333334	n/a	left	16.6666666667	right_hand.png	n/a	n/a	2	41	left	1	2	7.2
-928.2843333333334	n/a	left	16.6666666667	right_hand.png	n/a	n/a	2	41	left	1	2	7.2
-928.301	0	left	16.6666666667	right_hand.png	1	4641505	2	41	left	1	2	7.2
-929.8371333333333	n/a	right	66.6666666667	left_hand.png	n/a	n/a	2	42	right	1	2	8.8
-932.8371333333333	n/a	right	66.6666666667	left_hand.png	n/a	n/a	2	42	right	1	2	8.8
-932.9038	0	right	66.6666666667	left_hand.png	2	4664519	2	42	right	1	2	8.8
-934.4406666666666	n/a	left	83.3333333333	left_hand.png	n/a	n/a	2	43	right	1	2	-25.4
-937.4406666666666	n/a	left	83.3333333333	left_hand.png	n/a	n/a	2	43	right	1	2	-25.4
-937.5239999999999	0	left	83.3333333333	left_hand.png	1	4687620	2	43	right	1	2	-25.4
-939.0608666666667	n/a	left	83.3333333333	left_hand.png	n/a	n/a	2	44	right	1	2	-12.0
-942.0608666666667	n/a	left	83.3333333333	left_hand.png	n/a	n/a	2	44	right	1	2	-12.0
-942.1442	0	left	83.3333333333	left_hand.png	1	4710721	2	44	right	1	2	-12.0
-943.6865333333333	n/a	left	66.6666666667	right_hand.png	n/a	n/a	2	45	left	1	2	-5.6
-946.6865333333333	n/a	left	66.6666666667	right_hand.png	n/a	n/a	2	45	left	1	2	-5.6
-946.7532	0	left	66.6666666667	right_hand.png	1	4733766	2	45	left	1	2	-5.6
-948.2846000000001	n/a	left	50.0	right_hand.png	n/a	n/a	2	46	left	1	2	-37.6
-951.2846000000001	n/a	left	50.0	right_hand.png	n/a	n/a	2	46	left	1	2	-37.6
-951.3346	0	left	50.0	right_hand.png	1	4756673	2	46	left	1	2	-37.6
-952.8714666666667	n/a	right	33.3333333333	right_hand.png	n/a	n/a	2	47	left	1	2	-2.8
-955.8714666666667	n/a	right	33.3333333333	right_hand.png	n/a	n/a	2	47	left	1	2	-2.8
-955.9048	0	right	33.3333333333	right_hand.png	2	4779524	2	47	left	1	2	-2.8
-957.4456666666667	n/a	right	83.3333333333	right_hand.png	n/a	n/a	2	48	left	1	2	-16.0
-960.4456666666667	n/a	right	83.3333333333	right_hand.png	n/a	n/a	2	48	left	1	2	-16.0
-960.529	0	right	83.3333333333	right_hand.png	2	4802645	2	48	left	1	2	-16.0
-962.0618000000001	n/a	left	150.0	right_hand.png	n/a	n/a	2	49	left	1	2	-8.4
-965.0618000000001	n/a	left	150.0	right_hand.png	n/a	n/a	2	49	left	1	2	-8.4
-965.2118	0	left	150.0	right_hand.png	1	4826059	2	49	left	1	2	-8.4
-972.5363333333333	n/a	left	66.6666666667	left_hand.png	n/a	n/a	2	50	right	1	2	-11.4
-975.5363333333333	n/a	left	66.6666666667	left_hand.png	n/a	n/a	2	50	right	1	2	-11.4
-975.6030000000001	0	left	66.6666666667	left_hand.png	1	4878015	2	50	right	1	2	-11.4
-977.1397333333333	n/a	right	16.6666666667	left_hand.png	n/a	n/a	2	51	right	1	2	-8.2
-980.1397333333333	n/a	right	16.6666666667	left_hand.png	n/a	n/a	2	51	right	1	2	-8.2
-980.1564	0	right	16.6666666667	left_hand.png	2	4900782	2	51	right	1	2	-8.2
-981.6934666666667	n/a	left	33.3333333333	right_hand.png	n/a	n/a	2	52	left	1	2	-21.8
-984.6934666666667	n/a	left	33.3333333333	right_hand.png	n/a	n/a	2	52	left	1	2	-21.8
-984.7268	0	left	33.3333333333	right_hand.png	1	4923634	2	52	left	1	2	-21.8
-986.2635333333334	n/a	right	16.6666666667	left_hand.png	n/a	n/a	2	53	right	1	2	-18.4
-989.2635333333334	n/a	right	16.6666666667	left_hand.png	n/a	n/a	2	53	right	1	2	-18.4
-989.2802	0	right	16.6666666667	left_hand.png	2	4946401	2	53	right	1	2	-18.4
-990.817	n/a	left	50.0	right_hand.png	n/a	n/a	2	54	left	1	2	0.8
-993.817	n/a	left	50.0	right_hand.png	n/a	n/a	2	54	left	1	2	0.8
-993.867	0	left	50.0	right_hand.png	1	4969335	2	54	left	1	2	0.8
-995.4079333333333	n/a	right	66.6666666667	right_hand.png	n/a	n/a	2	55	left	1	2	-22.4
-998.4079333333333	n/a	right	66.6666666667	right_hand.png	n/a	n/a	2	55	left	1	2	-22.4
-998.4746	0	right	66.6666666667	right_hand.png	2	4992373	2	55	left	1	2	-22.4
-1000.024533333333	n/a	left	116.666666667	right_hand.png	n/a	n/a	2	56	left	1	2	-18.0
-1003.024533333333	n/a	left	116.666666667	right_hand.png	n/a	n/a	2	56	left	1	2	-18.0
-1003.1412	0	left	116.666666667	right_hand.png	1	5015706	2	56	left	1	2	-18.0
-1004.6774666666666	n/a	left	33.3333333333	right_hand.png	n/a	n/a	2	57	left	1	2	8.6
-1007.6774666666666	n/a	left	33.3333333333	right_hand.png	n/a	n/a	2	57	left	1	2	8.6
-1007.7108	0	left	33.3333333333	right_hand.png	1	5038554	2	57	left	1	2	8.6
-1009.2520000000001	n/a	left	50.0	left_hand.png	n/a	n/a	2	58	right	1	2	0.8
-1012.2520000000001	n/a	left	50.0	left_hand.png	n/a	n/a	2	58	right	1	2	0.8
-1012.302	0	left	50.0	left_hand.png	1	5061510	2	58	right	1	2	0.8
-1013.8345333333333	n/a	left	16.6666666667	left_hand.png	n/a	n/a	2	59	right	1	2	-21.2
-1016.8345333333333	n/a	left	16.6666666667	left_hand.png	n/a	n/a	2	59	right	1	2	-21.2
-1016.8512	0	left	16.6666666667	left_hand.png	1	5084256	2	59	right	1	2	-21.2
-1021.907933333333	n/a	left	166.66666666700002	left_hand.png	n/a	n/a	2	60	right	1	3	1.6
-1024.907933333333	n/a	left	166.66666666700002	left_hand.png	n/a	n/a	2	60	right	1	3	1.6
-1025.0746	0	left	166.66666666700002	left_hand.png	1	5125373	2	60	right	1	3	1.6
-1026.6110666666666	n/a	left	33.3333333333	left_hand.png	n/a	n/a	2	61	right	1	3	-32.8
-1029.6110666666666	n/a	left	33.3333333333	left_hand.png	n/a	n/a	2	61	right	1	3	-32.8
-1029.6444	0	left	33.3333333333	left_hand.png	1	5148222	2	61	right	1	3	-32.8
-1031.1812666666667	n/a	right	83.3333333333	left_hand.png	n/a	n/a	2	62	right	1	3	2.0
-1034.1812666666667	n/a	right	83.3333333333	left_hand.png	n/a	n/a	2	62	right	1	3	2.0
-1034.2646	0	right	83.3333333333	left_hand.png	2	5171323	2	62	right	1	3	2.0
-1035.8058666666668	n/a	left	83.3333333333	right_hand.png	n/a	n/a	2	63	left	1	3	-14.6
-1038.8058666666668	n/a	left	83.3333333333	right_hand.png	n/a	n/a	2	63	left	1	3	-14.6
-1038.8892	0	left	83.3333333333	right_hand.png	1	5194446	2	63	left	1	3	-14.6
-1040.4260000000002	n/a	left	50.0	right_hand.png	n/a	n/a	2	64	left	1	3	-19.0
-1043.4260000000002	n/a	left	50.0	right_hand.png	n/a	n/a	2	64	left	1	3	-19.0
-1043.476	0	left	50.0	right_hand.png	1	5217380	2	64	left	1	3	-19.0
-1045.0128000000002	n/a	left	100.0	right_hand.png	n/a	n/a	2	65	left	1	3	3.4
-1048.0128000000002	n/a	left	100.0	right_hand.png	n/a	n/a	2	65	left	1	3	3.4
-1048.1128	0	left	100.0	right_hand.png	1	5240564	2	65	left	1	3	3.4
-1049.6453333333334	n/a	right	66.6666666667	left_hand.png	n/a	n/a	2	66	right	1	3	-13.4
-1052.6453333333334	n/a	right	66.6666666667	left_hand.png	n/a	n/a	2	66	right	1	3	-13.4
-1052.712	0	right	66.6666666667	left_hand.png	2	5263560	2	66	right	1	3	-13.4
-1054.2489333333333	n/a	left	66.6666666667	right_hand.png	n/a	n/a	2	67	left	1	3	-9.0
-1057.2489333333333	n/a	left	66.6666666667	right_hand.png	n/a	n/a	2	67	left	1	3	-9.0
-1057.3156	0	left	66.6666666667	right_hand.png	1	5286578	2	67	left	1	3	-9.0
-1058.8567333333333	n/a	left	16.6666666667	left_hand.png	n/a	n/a	2	68	right	1	3	-10.0
-1061.8567333333333	n/a	left	16.6666666667	left_hand.png	n/a	n/a	2	68	right	1	3	-10.0
-1061.8734	0	left	16.6666666667	left_hand.png	1	5309367	2	68	right	1	3	-10.0
-1063.4060000000002	n/a	left	100.0	right_hand.png	n/a	n/a	2	69	left	1	3	-5.4
-1066.4060000000002	n/a	left	100.0	right_hand.png	n/a	n/a	2	69	left	1	3	-5.4
-1066.506	0	left	100.0	right_hand.png	1	5332530	2	69	left	1	3	-5.4
-1068.0428666666667	n/a	right	33.3333333333	left_hand.png	n/a	n/a	2	70	right	1	3	-22.4
-1071.0428666666667	n/a	right	33.3333333333	left_hand.png	n/a	n/a	2	70	right	1	3	-22.4
-1071.0762	0	right	33.3333333333	left_hand.png	2	5355381	2	70	right	1	3	-22.4
-1072.6138666666668	n/a	left	83.3333333333	left_hand.png	n/a	n/a	2	71	right	1	3	-8.2
-1075.6138666666668	n/a	left	83.3333333333	left_hand.png	n/a	n/a	2	71	right	1	3	-8.2
-1075.6972	0	left	83.3333333333	left_hand.png	1	5378486	2	71	right	1	3	-8.2
-1077.2335333333333	n/a	left	66.6666666667	left_hand.png	n/a	n/a	2	72	right	1	3	-19.0
-1080.2335333333333	n/a	left	66.6666666667	left_hand.png	n/a	n/a	2	72	right	1	3	-19.0
-1080.3002	0	left	66.6666666667	left_hand.png	1	5401501	2	72	right	1	3	-19.0
-1081.8366666666668	n/a	right	83.3333333333	left_hand.png	n/a	n/a	2	73	right	1	3	-16.6
-1084.8366666666668	n/a	right	83.3333333333	left_hand.png	n/a	n/a	2	73	right	1	3	-16.6
-1084.92	0	right	83.3333333333	left_hand.png	2	5424600	2	73	right	1	3	-16.6
-1086.457	n/a	left	50.0	right_hand.png	n/a	n/a	2	74	left	1	3	-17.4
-1089.457	n/a	left	50.0	right_hand.png	n/a	n/a	2	74	left	1	3	-17.4
-1089.507	0	left	50.0	right_hand.png	1	5447535	2	74	left	1	3	-17.4
-1091.0438000000001	n/a	left	100.0	left_hand.png	n/a	n/a	2	75	right	1	3	1.2
-1094.0438000000001	n/a	left	100.0	left_hand.png	n/a	n/a	2	75	right	1	3	1.2
-1094.1438	0	left	100.0	left_hand.png	1	5470719	2	75	right	1	3	1.2
-1095.6806000000001	n/a	left	50.0	right_hand.png	n/a	n/a	2	76	left	1	3	-28.8
-1098.6806000000001	n/a	left	50.0	right_hand.png	n/a	n/a	2	76	left	1	3	-28.8
-1098.7306	0	left	50.0	right_hand.png	1	5493653	2	76	left	1	3	-28.8
-1100.267533333333	n/a	left	116.666666667	left_hand.png	n/a	n/a	2	77	right	1	3	-23.2
-1103.267533333333	n/a	left	116.666666667	left_hand.png	n/a	n/a	2	77	right	1	3	-23.2
-1103.3842	0	left	116.666666667	left_hand.png	1	5516921	2	77	right	1	3	-23.2
-1104.9208666666666	n/a	left	33.3333333333	left_hand.png	n/a	n/a	2	78	right	1	3	-11.0
-1107.9208666666666	n/a	left	33.3333333333	left_hand.png	n/a	n/a	2	78	right	1	3	-11.0
-1107.9542	0	left	33.3333333333	left_hand.png	1	5539771	2	78	right	1	3	-11.0
-1109.4911333333334	n/a	left	66.6666666667	left_hand.png	n/a	n/a	2	79	right	1	3	-6.4
-1112.4911333333334	n/a	left	66.6666666667	left_hand.png	n/a	n/a	2	79	right	1	3	-6.4
-1112.5578	0	left	66.6666666667	left_hand.png	1	5562789	2	79	right	1	3	-6.4
-1123.6860000000001	n/a	right	50.0	left_hand.png	n/a	n/a	2	80	right	1	4	-27.8
-1126.6860000000001	n/a	right	50.0	left_hand.png	n/a	n/a	2	80	right	1	4	-27.8
-1126.736	0	right	50.0	left_hand.png	2	5633680	2	80	right	1	4	-27.8
-1128.2724666666668	n/a	left	83.3333333333	left_hand.png	n/a	n/a	2	81	right	1	4	11.6
-1131.2724666666668	n/a	left	83.3333333333	left_hand.png	n/a	n/a	2	81	right	1	4	11.6
-1131.3558	0	left	83.3333333333	left_hand.png	1	5656779	2	81	right	1	4	11.6
-1132.8924666666667	n/a	left	83.3333333333	left_hand.png	n/a	n/a	2	82	right	1	4	-26.0
-1135.8924666666667	n/a	left	83.3333333333	left_hand.png	n/a	n/a	2	82	right	1	4	-26.0
-1135.9758	0	left	83.3333333333	left_hand.png	1	5679879	2	82	right	1	4	-26.0
-1137.5124666666668	n/a	left	33.3333333333	right_hand.png	n/a	n/a	2	83	left	1	4	-39.2
-1140.5124666666668	n/a	left	33.3333333333	right_hand.png	n/a	n/a	2	83	left	1	4	-39.2
-1140.5458	0	left	33.3333333333	right_hand.png	1	5702729	2	83	left	1	4	-39.2
-1142.0828000000001	n/a	right	100.0	right_hand.png	n/a	n/a	2	84	left	1	4	-17.0
-1145.0828000000001	n/a	right	100.0	right_hand.png	n/a	n/a	2	84	left	1	4	-17.0
-1145.1828	0	right	100.0	right_hand.png	2	5725914	2	84	left	1	4	-17.0
-1156.3648666666668	n/a	left	83.3333333333	left_hand.png	n/a	n/a	2	85	right	1	5	-48.8
-1159.3648666666668	n/a	left	83.3333333333	left_hand.png	n/a	n/a	2	85	right	1	5	-48.8
-1159.4482	0	left	83.3333333333	left_hand.png	1	5797241	2	85	right	1	5	-48.8
-1160.9804666666666	n/a	left	33.3333333333	left_hand.png	n/a	n/a	2	86	right	1	5	-6.4
-1163.9804666666666	n/a	left	33.3333333333	left_hand.png	n/a	n/a	2	86	right	1	5	-6.4
-1164.0138	0	left	33.3333333333	left_hand.png	1	5820069	2	86	right	1	5	-6.4
-1165.5507333333335	n/a	left	66.6666666667	right_hand.png	n/a	n/a	2	87	left	1	5	-2.0
-1168.5507333333335	n/a	left	66.6666666667	right_hand.png	n/a	n/a	2	87	left	1	5	-2.0
-1168.6174	0	left	66.6666666667	right_hand.png	1	5843087	2	87	left	1	5	-2.0
-1170.1542	n/a	left	50.0	right_hand.png	n/a	n/a	2	88	left	1	5	-6.4
-1173.1542	n/a	left	50.0	right_hand.png	n/a	n/a	2	88	left	1	5	-6.4
-1173.2042	0	left	50.0	right_hand.png	1	5866021	2	88	left	1	5	-6.4
-1174.741666666667	n/a	right	133.33333333299998	right_hand.png	n/a	n/a	2	89	left	1	5	-18.0
-1177.741666666667	n/a	right	133.33333333299998	right_hand.png	n/a	n/a	2	89	left	1	5	-18.0
-1177.875	0	right	133.33333333299998	right_hand.png	2	5889375	2	89	left	1	5	-18.0
-1179.4128666666668	n/a	left	83.3333333333	left_hand.png	n/a	n/a	2	90	right	1	5	-11.0
-1182.4128666666668	n/a	left	83.3333333333	left_hand.png	n/a	n/a	2	90	right	1	5	-11.0
-1182.4962	0	left	83.3333333333	left_hand.png	1	5912481	2	90	right	1	5	-11.0
-1185.7995333333329	n/a	left	116.666666667	right_hand.png	n/a	n/a	2	91	left	1	6	0.0
-1188.7995333333329	n/a	left	116.666666667	right_hand.png	n/a	n/a	2	91	left	1	6	0.0
-1188.9162	0	left	116.666666667	right_hand.png	1	5944581	2	91	left	1	6	0.0
-1194.9566	n/a	left	50.0	left_hand.png	n/a	n/a	2	92	right	1	6	-2.4
-1197.9566	n/a	left	50.0	left_hand.png	n/a	n/a	2	92	right	1	6	-2.4
-1198.0066	0	left	50.0	left_hand.png	1	5990033	2	92	right	1	6	-2.4
-1199.5432666666668	n/a	right	33.3333333333	right_hand.png	n/a	n/a	2	93	left	1	6	-15.6
-1202.5432666666668	n/a	right	33.3333333333	right_hand.png	n/a	n/a	2	93	left	1	6	-15.6
-1202.5766	0	right	33.3333333333	right_hand.png	2	6012883	2	93	left	1	6	-15.6
-1204.1180666666667	n/a	left	33.3333333333	left_hand.png	n/a	n/a	2	94	right	1	6	-8.0
-1207.1180666666667	n/a	left	33.3333333333	left_hand.png	n/a	n/a	2	94	right	1	6	-8.0
-1207.1514	0	left	33.3333333333	left_hand.png	1	6035757	2	94	right	1	6	-8.0
-1208.6838	n/a	right	50.0	left_hand.png	n/a	n/a	2	95	right	1	6	-33.6
-1211.6838	n/a	right	50.0	left_hand.png	n/a	n/a	2	95	right	1	6	-33.6
-1211.7338	0	right	50.0	left_hand.png	2	6058669	2	95	right	1	6	-33.6
-1213.274933333333	n/a	left	116.666666667	left_hand.png	n/a	n/a	2	96	right	1	6	-23.0
-1216.274933333333	n/a	left	116.666666667	left_hand.png	n/a	n/a	2	96	right	1	6	-23.0
-1216.3916	0	left	116.666666667	left_hand.png	1	6081958	2	96	right	1	6	-23.0
-1217.9244	n/a	left	50.0	right_hand.png	n/a	n/a	2	97	left	1	6	-7.0
-1220.9244	n/a	left	50.0	right_hand.png	n/a	n/a	2	97	left	1	6	-7.0
-1220.9744	0	left	50.0	right_hand.png	1	6104872	2	97	left	1	6	-7.0
-1222.5107333333333	n/a	right	66.6666666667	right_hand.png	n/a	n/a	2	98	left	1	6	-27.6
-1225.5107333333333	n/a	right	66.6666666667	right_hand.png	n/a	n/a	2	98	left	1	6	-27.6
-1225.5774	0	right	66.6666666667	right_hand.png	2	6127887	2	98	left	1	6	-27.6
-1227.9483333333333	n/a	left	16.6666666667	left_hand.png	n/a	n/a	2	99	right	1	6	-13.6
-1230.9483333333333	n/a	left	16.6666666667	left_hand.png	n/a	n/a	2	99	right	1	6	-13.6
-1230.965	0	left	16.6666666667	left_hand.png	1	6154825	2	99	right	1	6	-13.6
-1236.6926666666668	n/a	right	33.3333333333	right_hand.png	n/a	n/a	2	100	left	1	7	-19.4
-1239.6926666666668	n/a	right	33.3333333333	right_hand.png	n/a	n/a	2	100	left	1	7	-19.4
-1239.726	0	right	33.3333333333	right_hand.png	2	6198630	2	100	left	1	7	-19.4
-1338.5329333333334	n/a	left	66.6666666667	right_hand.png	n/a	n/a	3	1	left	1	2	-26.8
-1341.5329333333334	n/a	left	66.6666666667	right_hand.png	n/a	n/a	3	1	left	1	2	-26.8
-1341.5996	0	left	66.6666666667	right_hand.png	1	6707998	3	1	left	1	2	-26.8
-1343.1409333333334	n/a	right	66.6666666667	left_hand.png	n/a	n/a	3	2	right	1	2	-5.0
-1346.1409333333334	n/a	right	66.6666666667	left_hand.png	n/a	n/a	3	2	right	1	2	-5.0
-1346.2076	0	right	66.6666666667	left_hand.png	2	6731038	3	2	right	1	2	-5.0
-1347.739933333333	n/a	right	116.666666667	left_hand.png	n/a	n/a	3	3	right	1	2	-22.2
-1350.739933333333	n/a	right	116.666666667	left_hand.png	n/a	n/a	3	3	right	1	2	-22.2
-1350.8566	0	right	116.666666667	left_hand.png	2	6754283	3	3	right	1	2	-22.2
-1352.3978666666667	n/a	right	33.3333333333	right_hand.png	n/a	n/a	3	4	left	1	2	-12.6
-1355.3978666666667	n/a	right	33.3333333333	right_hand.png	n/a	n/a	3	4	left	1	2	-12.6
-1355.4312	0	right	33.3333333333	right_hand.png	2	6777156	3	4	left	1	2	-12.6
-1356.9636666666672	n/a	left	133.33333333299998	right_hand.png	n/a	n/a	3	5	left	1	2	-12.8
-1359.9636666666672	n/a	left	133.33333333299998	right_hand.png	n/a	n/a	3	5	left	1	2	-12.8
-1360.0970000000002	0	left	133.33333333299998	right_hand.png	1	6800485	3	5	left	1	2	-12.8
-1361.6383333333333	n/a	left	16.6666666667	left_hand.png	n/a	n/a	3	6	right	1	2	-31.8
-1364.6383333333333	n/a	left	16.6666666667	left_hand.png	n/a	n/a	3	6	right	1	2	-31.8
-1364.655	0	left	16.6666666667	left_hand.png	1	6823275	3	6	right	1	2	-31.8
-1366.1878000000002	n/a	left	50.0	left_hand.png	n/a	n/a	3	7	right	1	2	-20.8
-1369.1878000000002	n/a	left	50.0	left_hand.png	n/a	n/a	3	7	right	1	2	-20.8
-1369.2378	0	left	50.0	left_hand.png	1	6846189	3	7	right	1	2	-20.8
-1370.8242666666667	n/a	right	83.3333333333	left_hand.png	n/a	n/a	3	8	right	1	2	-5.8
-1373.8242666666667	n/a	right	83.3333333333	left_hand.png	n/a	n/a	3	8	right	1	2	-5.8
-1373.9076	0	right	83.3333333333	left_hand.png	2	6869538	3	8	right	1	2	-5.8
-1375.4443333333334	n/a	left	66.6666666667	right_hand.png	n/a	n/a	3	9	left	1	2	-1.2
-1378.4443333333334	n/a	left	66.6666666667	right_hand.png	n/a	n/a	3	9	left	1	2	-1.2
-1378.511	0	left	66.6666666667	right_hand.png	1	6892555	3	9	left	1	2	-1.2
-1380.048	n/a	left	100.0	right_hand.png	n/a	n/a	3	10	left	1	2	-20.8
-1383.048	n/a	left	100.0	right_hand.png	n/a	n/a	3	10	left	1	2	-20.8
-1383.148	0	left	100.0	right_hand.png	1	6915740	3	10	left	1	2	-20.8
-1384.6848666666667	n/a	right	33.3333333333	left_hand.png	n/a	n/a	3	11	right	1	2	-18.0
-1387.6848666666667	n/a	right	33.3333333333	left_hand.png	n/a	n/a	3	11	right	1	2	-18.0
-1387.7182	0	right	33.3333333333	left_hand.png	2	6938591	3	11	right	1	2	-18.0
-1389.2550666666668	n/a	left	83.3333333333	right_hand.png	n/a	n/a	3	12	left	1	2	-30.2
-1392.2550666666668	n/a	left	83.3333333333	right_hand.png	n/a	n/a	3	12	left	1	2	-30.2
-1392.3384	0	left	83.3333333333	right_hand.png	1	6961692	3	12	left	1	2	-30.2
-1393.8753333333332	n/a	right	116.666666667	right_hand.png	n/a	n/a	3	13	left	1	2	-24.6
-1396.8753333333332	n/a	right	116.666666667	right_hand.png	n/a	n/a	3	13	left	1	2	-24.6
-1396.9920000000002	0	right	116.666666667	right_hand.png	2	6984960	3	13	left	1	2	-24.6
-1398.5286666666668	n/a	left	83.3333333333	left_hand.png	n/a	n/a	3	14	right	1	2	14.6
-1401.5286666666668	n/a	left	83.3333333333	left_hand.png	n/a	n/a	3	14	right	1	2	14.6
-1401.612	0	left	83.3333333333	left_hand.png	1	7008060	3	14	right	1	2	14.6
-1403.1530666666667	n/a	left	33.3333333333	right_hand.png	n/a	n/a	3	15	left	1	2	-28.6
-1406.1530666666667	n/a	left	33.3333333333	right_hand.png	n/a	n/a	3	15	left	1	2	-28.6
-1406.1864	0	left	33.3333333333	right_hand.png	1	7030932	3	15	left	1	2	-28.6
-1407.723333333333	n/a	left	116.666666667	left_hand.png	n/a	n/a	3	16	right	1	2	-23.0
-1410.723333333333	n/a	left	116.666666667	left_hand.png	n/a	n/a	3	16	right	1	2	-23.0
-1410.84	0	left	116.666666667	left_hand.png	1	7054200	3	16	right	1	2	-23.0
-1412.3726000000001	n/a	left	50.0	right_hand.png	n/a	n/a	3	17	left	1	2	2.4
-1415.3726000000001	n/a	left	50.0	right_hand.png	n/a	n/a	3	17	left	1	2	2.4
-1415.4226	0	left	50.0	right_hand.png	1	7077113	3	17	left	1	2	2.4
-1416.9638666666667	n/a	right	33.3333333333	left_hand.png	n/a	n/a	3	18	right	1	2	-38.6
-1419.9638666666667	n/a	right	33.3333333333	left_hand.png	n/a	n/a	3	18	right	1	2	-38.6
-1419.9972	0	right	33.3333333333	left_hand.png	2	7099986	3	18	right	1	2	-38.6
-1421.5296666666666	n/a	left	83.3333333333	right_hand.png	n/a	n/a	3	19	left	1	2	-8.6
-1424.5296666666666	n/a	left	83.3333333333	right_hand.png	n/a	n/a	3	19	left	1	2	-8.6
-1424.6129999999998	0	left	83.3333333333	right_hand.png	1	7123065	3	19	left	1	2	-8.6
-1426.1506666666667	n/a	right	83.3333333333	left_hand.png	n/a	n/a	3	20	right	1	2	-10.6
-1429.1506666666667	n/a	right	83.3333333333	left_hand.png	n/a	n/a	3	20	right	1	2	-10.6
-1429.234	0	right	83.3333333333	left_hand.png	2	7146170	3	20	right	1	2	-10.6
-1430.7706666666668	n/a	left	83.3333333333	right_hand.png	n/a	n/a	3	21	left	1	2	-7.0
-1433.7706666666668	n/a	left	83.3333333333	right_hand.png	n/a	n/a	3	21	left	1	2	-7.0
-1433.854	0	left	83.3333333333	right_hand.png	1	7169270	3	21	left	1	2	-7.0
-1435.3944666666666	n/a	left	83.3333333333	right_hand.png	n/a	n/a	3	22	left	1	2	-12.8
-1438.3944666666666	n/a	left	83.3333333333	right_hand.png	n/a	n/a	3	22	left	1	2	-12.8
-1438.4778	0	left	83.3333333333	right_hand.png	1	7192389	3	22	left	1	2	-12.8
-1440.0106	n/a	right	50.0	left_hand.png	n/a	n/a	3	23	right	1	2	-13.2
-1443.0106	n/a	right	50.0	left_hand.png	n/a	n/a	3	23	right	1	2	-13.2
-1443.0606	0	right	50.0	left_hand.png	2	7215303	3	23	right	1	2	-13.2
-1448.121133333333	n/a	right	166.66666666700002	left_hand.png	n/a	n/a	3	24	right	1	3	-22.8
-1451.121133333333	n/a	right	166.66666666700002	left_hand.png	n/a	n/a	3	24	right	1	3	-22.8
-1451.2878	0	right	166.66666666700002	left_hand.png	2	7256439	3	24	right	1	3	-22.8
-1452.8246666666666	n/a	left	83.3333333333	right_hand.png	n/a	n/a	3	25	left	1	3	-13.2
-1455.8246666666666	n/a	left	83.3333333333	right_hand.png	n/a	n/a	3	25	left	1	3	-13.2
-1455.908	0	left	83.3333333333	right_hand.png	1	7279540	3	25	left	1	3	-13.2
-1457.4404666666667	n/a	right	83.3333333333	right_hand.png	n/a	n/a	3	26	left	1	3	8.4
-1460.4404666666667	n/a	right	83.3333333333	right_hand.png	n/a	n/a	3	26	left	1	3	8.4
-1460.5238	0	right	83.3333333333	right_hand.png	2	7302619	3	26	left	1	3	8.4
-1462.0650666666668	n/a	left	33.3333333333	right_hand.png	n/a	n/a	3	27	left	1	3	-12.2
-1465.0650666666668	n/a	left	33.3333333333	right_hand.png	n/a	n/a	3	27	left	1	3	-12.2
-1465.0984	0	left	33.3333333333	right_hand.png	1	7325492	3	27	left	1	3	-12.2
-1466.6349333333333	n/a	right	16.6666666667	right_hand.png	n/a	n/a	3	28	left	1	3	-5.8
-1469.6349333333333	n/a	right	16.6666666667	right_hand.png	n/a	n/a	3	28	left	1	3	-5.8
-1469.6516	0	right	16.6666666667	right_hand.png	2	7348258	3	28	left	1	3	-5.8
-1471.1842000000001	n/a	left	50.0	left_hand.png	n/a	n/a	3	29	right	1	3	-6.0
-1474.1842000000001	n/a	left	50.0	left_hand.png	n/a	n/a	3	29	right	1	3	-6.0
-1474.2342	0	left	50.0	left_hand.png	1	7371171	3	29	right	1	3	-6.0
-1477.890066666667	n/a	left	133.33333333299998	right_hand.png	n/a	n/a	3	30	left	1	4	-11.2
-1480.890066666667	n/a	left	133.33333333299998	right_hand.png	n/a	n/a	3	30	left	1	4	-11.2
-1481.0234	0	left	133.33333333299998	right_hand.png	1	7405117	3	30	left	1	4	-11.2
-1482.5638666666666	n/a	right	33.3333333333	left_hand.png	n/a	n/a	3	31	right	1	4	-22.2
-1485.5638666666666	n/a	right	33.3333333333	left_hand.png	n/a	n/a	3	31	right	1	4	-22.2
-1485.5972	0	right	33.3333333333	left_hand.png	2	7427986	3	31	right	1	4	-22.2
-1487.1299333333334	n/a	left	16.6666666667	right_hand.png	n/a	n/a	3	32	left	1	4	-14.8
-1490.1299333333334	n/a	left	16.6666666667	right_hand.png	n/a	n/a	3	32	left	1	4	-14.8
-1490.1466	0	left	16.6666666667	right_hand.png	1	7450733	3	32	left	1	4	-14.8
-1491.683466666667	n/a	left	133.33333333299998	right_hand.png	n/a	n/a	3	33	left	1	4	-6.2
-1494.683466666667	n/a	left	133.33333333299998	right_hand.png	n/a	n/a	3	33	left	1	4	-6.2
-1494.8168	0	left	133.33333333299998	right_hand.png	1	7474084	3	33	left	1	4	-6.2
-1496.3577333333335	n/a	right	66.6666666667	right_hand.png	n/a	n/a	3	34	left	1	4	-5.8
-1499.3577333333335	n/a	right	66.6666666667	right_hand.png	n/a	n/a	3	34	left	1	4	-5.8
-1499.4244	0	right	66.6666666667	right_hand.png	2	7497122	3	34	left	1	4	-5.8
-1500.9571333333333	n/a	left	66.6666666667	left_hand.png	n/a	n/a	3	35	right	1	4	-0.4
-1503.9571333333333	n/a	left	66.6666666667	left_hand.png	n/a	n/a	3	35	right	1	4	-0.4
-1504.0238	0	left	66.6666666667	left_hand.png	1	7520119	3	35	right	1	4	-0.4
-1505.5608666666667	n/a	right	83.3333333333	right_hand.png	n/a	n/a	3	36	left	1	4	-34.0
-1508.5608666666667	n/a	right	83.3333333333	right_hand.png	n/a	n/a	3	36	left	1	4	-34.0
-1508.6442	0	right	83.3333333333	right_hand.png	2	7543221	3	36	left	1	4	-34.0
-1510.185	n/a	left	150.0	left_hand.png	n/a	n/a	3	37	right	1	4	-15.6
-1513.185	n/a	left	150.0	left_hand.png	n/a	n/a	3	37	right	1	4	-15.6
-1513.335	0	left	150.0	left_hand.png	1	7566675	3	37	right	1	4	-15.6
-1514.8678	n/a	right	100.0	right_hand.png	n/a	n/a	3	38	left	1	4	10.8
-1517.8678	n/a	right	100.0	right_hand.png	n/a	n/a	3	38	left	1	4	10.8
-1517.9678	0	right	100.0	right_hand.png	2	7589839	3	38	left	1	4	10.8
-1519.506	n/a	left	100.0	left_hand.png	n/a	n/a	3	39	right	1	4	-15.6
-1522.506	n/a	left	100.0	left_hand.png	n/a	n/a	3	39	right	1	4	-15.6
-1522.606	0	left	100.0	left_hand.png	1	7613030	3	39	right	1	4	-15.6
-1524.1418666666668	n/a	left	83.3333333333	right_hand.png	n/a	n/a	3	40	left	1	4	-5.0
-1527.1418666666668	n/a	left	83.3333333333	right_hand.png	n/a	n/a	3	40	left	1	4	-5.0
-1527.2252	0	left	83.3333333333	right_hand.png	1	7636126	3	40	left	1	4	-5.0
-1528.7617333333335	n/a	right	66.6666666667	right_hand.png	n/a	n/a	3	41	left	1	4	-0.2
-1531.7617333333335	n/a	right	66.6666666667	right_hand.png	n/a	n/a	3	41	left	1	4	-0.2
-1531.8284	0	right	66.6666666667	right_hand.png	2	7659142	3	41	left	1	4	-0.2
-1541.976	n/a	left	50.0	right_hand.png	n/a	n/a	3	42	left	1	7	-13.8
-1544.976	n/a	left	50.0	right_hand.png	n/a	n/a	3	42	left	1	7	-13.8
-1545.026	0	left	50.0	right_hand.png	1	7725130	3	42	left	1	7	-13.8
-1546.5586	n/a	left	50.0	right_hand.png	n/a	n/a	3	43	left	1	7	-14.0
-1549.5586	n/a	left	50.0	right_hand.png	n/a	n/a	3	43	left	1	7	-14.0
-1549.6086	0	left	50.0	right_hand.png	1	7748043	3	43	left	1	7	-14.0
-1551.1454666666668	n/a	right	83.3333333333	left_hand.png	n/a	n/a	3	44	right	1	7	-26.2
-1554.1454666666668	n/a	right	83.3333333333	left_hand.png	n/a	n/a	3	44	right	1	7	-26.2
-1554.2288	0	right	83.3333333333	left_hand.png	2	7771144	3	44	right	1	7	-26.2
-1555.7699333333335	n/a	left	66.6666666667	right_hand.png	n/a	n/a	3	45	left	1	7	-26.0
-1558.7699333333335	n/a	left	66.6666666667	right_hand.png	n/a	n/a	3	45	left	1	7	-26.0
-1558.8366	0	left	66.6666666667	right_hand.png	1	7794183	3	45	left	1	7	-26.0
-1560.3690666666666	n/a	right	83.3333333333	left_hand.png	n/a	n/a	3	46	right	1	7	-25.2
-1563.3690666666666	n/a	right	83.3333333333	left_hand.png	n/a	n/a	3	46	right	1	7	-25.2
-1563.4524	0	right	83.3333333333	left_hand.png	2	7817262	3	46	right	1	7	-25.2
-1564.9892666666667	n/a	left	33.3333333333	right_hand.png	n/a	n/a	3	47	left	1	7	-21.6
-1567.9892666666667	n/a	left	33.3333333333	right_hand.png	n/a	n/a	3	47	left	1	7	-21.6
-1568.0226	0	left	33.3333333333	right_hand.png	1	7840113	3	47	left	1	7	-21.6
-1569.5596	n/a	right	50.0	right_hand.png	n/a	n/a	3	48	left	1	7	-0.6
-1572.5596	n/a	right	50.0	right_hand.png	n/a	n/a	3	48	left	1	7	-0.6
-1572.6096	0	right	50.0	right_hand.png	2	7863048	3	48	left	1	7	-0.6
-1577.6664	n/a	left	100.0	right_hand.png	n/a	n/a	3	49	left	1	8	-16.6
-1580.6664	n/a	left	100.0	right_hand.png	n/a	n/a	3	49	left	1	8	-16.6
-1580.7664	0	left	100.0	right_hand.png	1	7903832	3	49	left	1	8	-16.6
-1582.3068666666668	n/a	right	83.3333333333	right_hand.png	n/a	n/a	3	50	left	1	8	-32.4
-1585.3068666666668	n/a	right	83.3333333333	right_hand.png	n/a	n/a	3	50	left	1	8	-32.4
-1585.3902	0	right	83.3333333333	right_hand.png	2	7926951	3	50	left	1	8	-32.4
-1586.9228666666668	n/a	left	83.3333333333	left_hand.png	n/a	n/a	3	51	right	1	8	1.2
-1589.9228666666668	n/a	left	83.3333333333	left_hand.png	n/a	n/a	3	51	right	1	8	1.2
-1590.0062	0	left	83.3333333333	left_hand.png	1	7950031	3	51	right	1	8	1.2
-1591.5428666666667	n/a	left	83.3333333333	right_hand.png	n/a	n/a	3	52	left	1	8	-1.2
-1594.5428666666667	n/a	left	83.3333333333	right_hand.png	n/a	n/a	3	52	left	1	8	-1.2
-1594.6262	0	left	83.3333333333	right_hand.png	1	7973131	3	52	left	1	8	-1.2
-1596.1633333333334	n/a	right	66.6666666667	right_hand.png	n/a	n/a	3	53	left	1	8	-22.6
-1599.1633333333334	n/a	right	66.6666666667	right_hand.png	n/a	n/a	3	53	left	1	8	-22.6
-1599.23	0	right	66.6666666667	right_hand.png	2	7996150	3	53	left	1	8	-22.6
-1600.7666666666667	n/a	left	83.3333333333	right_hand.png	n/a	n/a	3	54	left	1	8	-30.2
-1603.7666666666667	n/a	left	83.3333333333	right_hand.png	n/a	n/a	3	54	left	1	8	-30.2
-1603.85	0	left	83.3333333333	right_hand.png	1	8019250	3	54	left	1	8	-30.2
-1607.4762666666668	n/a	left	33.3333333333	right_hand.png	n/a	n/a	3	55	left	1	9	-12.6
-1610.4762666666668	n/a	left	33.3333333333	right_hand.png	n/a	n/a	3	55	left	1	9	-12.6
-1610.5096	0	left	33.3333333333	right_hand.png	1	8052548	3	55	left	1	9	-12.6
-1612.0420666666666	n/a	right	33.3333333333	right_hand.png	n/a	n/a	3	56	left	1	9	4.0
-1615.0420666666666	n/a	right	33.3333333333	right_hand.png	n/a	n/a	3	56	left	1	9	4.0
-1615.0754	0	right	33.3333333333	right_hand.png	2	8075377	3	56	left	1	9	4.0
-1618.6804666666667	n/a	right	83.3333333333	left_hand.png	n/a	n/a	3	57	right	1	10	-16.2
-1621.6804666666667	n/a	right	83.3333333333	left_hand.png	n/a	n/a	3	57	right	1	10	-16.2
-1621.7638	0	right	83.3333333333	left_hand.png	2	8108819	3	57	right	1	10	-16.2
-1627.2206	n/a	left	50.0	right_hand.png	n/a	n/a	3	58	left	1	10	-10.4
-1630.2206	n/a	left	50.0	right_hand.png	n/a	n/a	3	58	left	1	10	-10.4
-1630.2706	0	left	50.0	right_hand.png	1	8151353	3	58	left	1	10	-10.4
-1635.326533333333	n/a	right	116.666666667	right_hand.png	n/a	n/a	3	59	left	1	11	-16.6
-1638.326533333333	n/a	right	116.666666667	right_hand.png	n/a	n/a	3	59	left	1	11	-16.6
-1638.4432	0	right	116.666666667	right_hand.png	2	8192216	3	59	left	1	11	-16.6
-1639.9802	n/a	left	50.0	left_hand.png	n/a	n/a	3	60	right	1	11	-21.2
-1642.9802	n/a	left	50.0	left_hand.png	n/a	n/a	3	60	right	1	11	-21.2
-1643.0302	0	left	50.0	left_hand.png	1	8215151	3	60	right	1	11	-21.2
-1644.5670666666667	n/a	left	83.3333333333	left_hand.png	n/a	n/a	3	61	right	1	11	-33.4
-1647.5670666666667	n/a	left	83.3333333333	left_hand.png	n/a	n/a	3	61	right	1	11	-33.4
-1647.6504	0	left	83.3333333333	left_hand.png	1	8238252	3	61	right	1	11	-33.4
-1649.1870666666669	n/a	left	83.3333333333	right_hand.png	n/a	n/a	3	62	left	1	11	5.8
-1652.1870666666669	n/a	left	83.3333333333	right_hand.png	n/a	n/a	3	62	left	1	11	5.8
-1652.2704	0	left	83.3333333333	right_hand.png	1	8261352	3	62	left	1	11	5.8
-1653.8072666666667	n/a	left	33.3333333333	right_hand.png	n/a	n/a	3	63	left	1	11	-33.2
-1656.8072666666667	n/a	left	33.3333333333	right_hand.png	n/a	n/a	3	63	left	1	11	-33.2
-1656.8406	0	left	33.3333333333	right_hand.png	1	8284203	3	63	left	1	11	-33.2
-1658.3816666666667	n/a	right	83.3333333333	left_hand.png	n/a	n/a	3	64	right	1	11	1.0
-1661.3816666666667	n/a	right	83.3333333333	left_hand.png	n/a	n/a	3	64	right	1	11	1.0
-1661.465	0	right	83.3333333333	left_hand.png	2	8307325	3	64	right	1	11	1.0
-1662.9977333333334	n/a	left	66.6666666667	left_hand.png	n/a	n/a	3	65	right	1	11	-15.4
-1665.9977333333334	n/a	left	66.6666666667	left_hand.png	n/a	n/a	3	65	right	1	11	-15.4
-1666.0644	0	left	66.6666666667	left_hand.png	1	8330322	3	65	right	1	11	-15.4
-1668.5852666666667	n/a	left	83.3333333333	left_hand.png	n/a	n/a	3	66	right	1	12	-13.2
-1671.5852666666667	n/a	left	83.3333333333	left_hand.png	n/a	n/a	3	66	right	1	12	-13.2
-1671.6686	0	left	83.3333333333	left_hand.png	1	8358343	3	66	right	1	12	-13.2
-1673.206133333333	n/a	left	116.666666667	right_hand.png	n/a	n/a	3	67	left	1	12	-8.2
-1676.206133333333	n/a	left	116.666666667	right_hand.png	n/a	n/a	3	67	left	1	12	-8.2
-1676.3228	0	left	116.666666667	right_hand.png	1	8381614	3	67	left	1	12	-8.2
-1677.859733333333	n/a	right	116.666666667	left_hand.png	n/a	n/a	3	68	right	1	12	-2.6
-1680.859733333333	n/a	right	116.666666667	left_hand.png	n/a	n/a	3	68	right	1	12	-2.6
-1680.9764	0	right	116.666666667	left_hand.png	2	8404882	3	68	right	1	12	-2.6
-1686.0362	n/a	left	100.0	right_hand.png	n/a	n/a	3	69	left	1	13	-21.6
-1689.0362	n/a	left	100.0	right_hand.png	n/a	n/a	3	69	left	1	13	-21.6
-1689.1362	0	left	100.0	right_hand.png	1	8445681	3	69	left	1	13	-21.6
-1690.668733333333	n/a	right	116.666666667	right_hand.png	n/a	n/a	3	70	left	1	13	-11.6
-1693.668733333333	n/a	right	116.666666667	right_hand.png	n/a	n/a	3	70	left	1	13	-11.6
-1693.7854	0	right	116.666666667	right_hand.png	2	8468927	3	70	left	1	13	-11.6
-1695.3224666666667	n/a	left	33.3333333333	right_hand.png	n/a	n/a	3	71	left	1	13	-25.0
-1698.3224666666667	n/a	left	33.3333333333	right_hand.png	n/a	n/a	3	71	left	1	13	-25.0
-1698.3558	0	left	33.3333333333	right_hand.png	1	8491779	3	71	left	1	13	-25.0
-1699.896933333333	n/a	left	116.666666667	right_hand.png	n/a	n/a	3	72	left	1	13	1.8
-1702.896933333333	n/a	left	116.666666667	right_hand.png	n/a	n/a	3	72	left	1	13	1.8
-1703.0136	0	left	116.666666667	right_hand.png	1	8515068	3	72	left	1	13	1.8
-1704.5463333333332	n/a	right	66.6666666667	left_hand.png	n/a	n/a	3	73	right	1	13	10.4
-1707.5463333333332	n/a	right	66.6666666667	left_hand.png	n/a	n/a	3	73	right	1	13	10.4
-1707.6129999999998	0	right	66.6666666667	left_hand.png	2	8538065	3	73	right	1	13	10.4
-1709.1498666666666	n/a	left	83.3333333333	left_hand.png	n/a	n/a	3	74	right	1	13	-1.8
-1712.1498666666666	n/a	left	83.3333333333	left_hand.png	n/a	n/a	3	74	right	1	13	-1.8
-1712.2332	0	left	83.3333333333	left_hand.png	1	8561166	3	74	right	1	13	-1.8
-1713.7698	n/a	left	50.0	right_hand.png	n/a	n/a	3	75	left	1	13	-6.0
-1716.7698	n/a	left	50.0	right_hand.png	n/a	n/a	3	75	left	1	13	-6.0
-1716.8198	0	left	50.0	right_hand.png	1	8584099	3	75	left	1	13	-6.0
-1720.6252666666671	n/a	left	183.33333333299998	right_hand.png	n/a	n/a	3	76	left	1	14	7.8
-1723.6252666666671	n/a	left	183.33333333299998	right_hand.png	n/a	n/a	3	76	left	1	14	7.8
-1723.8086	0	left	183.33333333299998	right_hand.png	1	8619043	3	76	left	1	14	7.8
-1726.9968000000001	n/a	left	100.0	right_hand.png	n/a	n/a	3	77	left	1	15	-22.2
-1729.9968000000001	n/a	left	100.0	right_hand.png	n/a	n/a	3	77	left	1	15	-22.2
-1730.0968	0	left	100.0	right_hand.png	1	8650484	3	77	left	1	15	-22.2
-1731.6348666666668	n/a	right	33.3333333333	left_hand.png	n/a	n/a	3	78	right	1	15	-11.2
-1734.6348666666668	n/a	right	33.3333333333	left_hand.png	n/a	n/a	3	78	right	1	15	-11.2
-1734.6682	0	right	33.3333333333	left_hand.png	2	8673341	3	78	right	1	15	-11.2
-1736.2036	n/a	left	50.0	right_hand.png	n/a	n/a	3	79	left	1	15	-24.0
-1739.2036	n/a	left	50.0	right_hand.png	n/a	n/a	3	79	left	1	15	-24.0
-1739.2536	0	left	50.0	right_hand.png	1	8696268	3	79	left	1	15	-24.0
-1740.7949333333333	n/a	right	66.6666666667	right_hand.png	n/a	n/a	3	80	left	1	15	-8.8
-1743.7949333333333	n/a	right	66.6666666667	right_hand.png	n/a	n/a	3	80	left	1	15	-8.8
-1743.8616	0	right	66.6666666667	right_hand.png	2	8719308	3	80	left	1	15	-8.8
-1748.896733333333	n/a	left	116.666666667	right_hand.png	n/a	n/a	3	81	left	1	16	-10.0
-1751.896733333333	n/a	left	116.666666667	right_hand.png	n/a	n/a	3	81	left	1	16	-10.0
-1752.0134	0	left	116.666666667	right_hand.png	1	8760067	3	81	left	1	16	-10.0
-1753.550466666667	n/a	right	133.33333333299998	right_hand.png	n/a	n/a	3	82	left	1	16	-10.8
-1756.550466666667	n/a	right	133.33333333299998	right_hand.png	n/a	n/a	3	82	left	1	16	-10.8
-1756.6838	0	right	133.33333333299998	right_hand.png	2	8783419	3	82	left	1	16	-10.8
-1758.2202666666667	n/a	left	83.3333333333	left_hand.png	n/a	n/a	3	83	right	1	16	-21.0
-1761.2202666666667	n/a	left	83.3333333333	left_hand.png	n/a	n/a	3	83	right	1	16	-21.0
-1761.3036	0	left	83.3333333333	left_hand.png	1	8806518	3	83	right	1	16	-21.0
-1762.8406666666667	n/a	left	33.3333333333	left_hand.png	n/a	n/a	3	84	right	1	16	-10.6
-1765.8406666666667	n/a	left	33.3333333333	left_hand.png	n/a	n/a	3	84	right	1	16	-10.6
-1765.874	0	left	33.3333333333	left_hand.png	1	8829370	3	84	right	1	16	-10.6
-1767.494466666667	n/a	left	133.33333333299998	left_hand.png	n/a	n/a	3	85	right	1	16	-2.8
-1770.494466666667	n/a	left	133.33333333299998	left_hand.png	n/a	n/a	3	85	right	1	16	-2.8
-1770.6278	0	left	133.33333333299998	left_hand.png	1	8853139	3	85	right	1	16	-2.8
-1775.683866666667	n/a	left	133.33333333299998	right_hand.png	n/a	n/a	3	86	left	1	17	-0.2
-1778.683866666667	n/a	left	133.33333333299998	right_hand.png	n/a	n/a	3	86	left	1	17	-0.2
-1778.8172	0	left	133.33333333299998	right_hand.png	1	8894086	3	86	left	1	17	-0.2
-1780.3540666666668	n/a	right	83.3333333333	left_hand.png	n/a	n/a	3	87	right	1	17	-12.4
-1783.3540666666668	n/a	right	83.3333333333	left_hand.png	n/a	n/a	3	87	right	1	17	-12.4
-1783.4374	0	right	83.3333333333	left_hand.png	2	8917187	3	87	right	1	17	-12.4
-1784.9742666666666	n/a	right	33.3333333333	right_hand.png	n/a	n/a	3	88	left	1	17	-11.4
-1787.9742666666666	n/a	right	33.3333333333	right_hand.png	n/a	n/a	3	88	left	1	17	-11.4
-1788.0076	0	right	33.3333333333	right_hand.png	2	8940038	3	88	left	1	17	-11.4
-1789.544533333333	n/a	left	166.66666666700002	right_hand.png	n/a	n/a	3	89	left	1	17	-18.0
-1792.544533333333	n/a	left	166.66666666700002	right_hand.png	n/a	n/a	3	89	left	1	17	-18.0
-1792.7112	0	left	166.66666666700002	right_hand.png	1	8963556	3	89	left	1	17	-18.0
-1794.252333333333	n/a	left	116.666666667	right_hand.png	n/a	n/a	3	90	left	1	17	-17.6
-1797.252333333333	n/a	left	116.666666667	right_hand.png	n/a	n/a	3	90	left	1	17	-17.6
-1797.369	0	left	116.666666667	right_hand.png	1	8986845	3	90	left	1	17	-17.6
-1806.795533333333	n/a	left	116.666666667	left_hand.png	n/a	n/a	3	91	right	1	19	0.8
-1809.795533333333	n/a	left	116.666666667	left_hand.png	n/a	n/a	3	91	right	1	19	0.8
-1809.9122	0	left	116.666666667	left_hand.png	1	9049561	3	91	right	1	19	0.8
-1811.449	n/a	left	100.0	left_hand.png	n/a	n/a	3	92	right	1	19	-20.0
-1814.449	n/a	left	100.0	left_hand.png	n/a	n/a	3	92	right	1	19	-20.0
-1814.549	0	left	100.0	left_hand.png	1	9072745	3	92	right	1	19	-20.0
-1816.0814666666668	n/a	left	83.3333333333	right_hand.png	n/a	n/a	3	93	left	1	19	-2.2
-1819.0814666666668	n/a	left	83.3333333333	right_hand.png	n/a	n/a	3	93	left	1	19	-2.2
-1819.1648	0	left	83.3333333333	right_hand.png	1	9095824	3	93	left	1	19	-2.2
-1820.7026	n/a	right	50.0	right_hand.png	n/a	n/a	3	94	left	1	19	-12.0
-1823.7026	n/a	right	50.0	right_hand.png	n/a	n/a	3	94	left	1	19	-12.0
-1823.7526	0	right	50.0	right_hand.png	2	9118763	3	94	left	1	19	-12.0
-1825.2892	n/a	left	50.0	right_hand.png	n/a	n/a	3	95	left	1	19	-11.8
-1828.2892	n/a	left	50.0	right_hand.png	n/a	n/a	3	95	left	1	19	-11.8
-1828.3392	0	left	50.0	right_hand.png	1	9141696	3	95	left	1	19	-11.8
-1829.8754000000001	n/a	right	50.0	right_hand.png	n/a	n/a	3	96	left	1	19	-15.6
-1832.8754000000001	n/a	right	50.0	right_hand.png	n/a	n/a	3	96	left	1	19	-15.6
-1832.9254	0	right	50.0	right_hand.png	2	9164627	3	96	left	1	19	-15.6
-1834.4620666666667	n/a	right	83.3333333333	left_hand.png	n/a	n/a	3	97	right	1	19	-27.6
-1837.4620666666667	n/a	right	83.3333333333	left_hand.png	n/a	n/a	3	97	right	1	19	-27.6
-1837.5454	0	right	83.3333333333	left_hand.png	2	9187727	3	97	right	1	19	-27.6
-1839.0826000000002	n/a	left	100.0	right_hand.png	n/a	n/a	3	98	left	1	19	-5.6
-1842.0826000000002	n/a	left	100.0	right_hand.png	n/a	n/a	3	98	left	1	19	-5.6
-1842.1826	0	left	100.0	right_hand.png	1	9210913	3	98	left	1	19	-5.6
-1843.723733333333	n/a	right	116.666666667	left_hand.png	n/a	n/a	3	99	right	1	19	-29.8
-1846.723733333333	n/a	right	116.666666667	left_hand.png	n/a	n/a	3	99	right	1	19	-29.8
-1846.8404	0	right	116.666666667	left_hand.png	2	9234202	3	99	right	1	19	-29.8
-1848.377333333333	n/a	left	116.666666667	right_hand.png	n/a	n/a	3	100	left	1	19	-24.2
-1851.377333333333	n/a	left	116.666666667	right_hand.png	n/a	n/a	3	100	left	1	19	-24.2
-1851.494	0	left	116.666666667	right_hand.png	1	9257470	3	100	left	1	19	-24.2
+onset	duration	trial_type	response_time	stim_file	value	sample	stage	trial	bci_prediction	n_repeated	latency
+18.1556	0	right	116.666666667	left_hand.png	2.0	90778.0	1	1	right	2	-4.2
+22.9922	0	right	100.0	right_hand.png	2.0	114961.0	1	2	left	2	-2.4
+27.5638	0	left	33.3333333333	right_hand.png	1.0	137819.0	1	3	left	2	-17.2
+35.652	0	right	16.6666666667	right_hand.png	2.0	178260.0	1	4	left	3	9.8
+40.2594	0	right	66.6666666667	left_hand.png	2.0	201297.0	1	5	right	3	-15.2
+49.0162	0	left	100.0	left_hand.png	1.0	245081.0	1	6	right	5	-16.8
+57.8232	0	right	33.3333333333	left_hand.png	2.0	289116.0	1	7	right	7	-43.0
+62.3728	0	right	16.6666666667	left_hand.png	2.0	311864.0	1	8	right	7	-10.2
+67.5938	0	left	16.6666666667	left_hand.png	1.0	337969.0	1	9	right	8	-8.8
+80.1024	0	right	16.6666666667	right_hand.png	2.0	400512.0	1	10	left	9	1.0
+84.6728	0	left	33.3333333333	right_hand.png	1.0	423364.0	1	11	left	9	-38.2
+89.3138	0	left	100.0	left_hand.png	1.0	446569.0	1	12	right	9	-20.0
+93.9134	0	right	66.6666666667	right_hand.png	2.0	469567.0	1	13	left	9	-11.6
+98.5542	0	left	100.0	right_hand.png	1.0	492771.0	1	14	left	9	-18.8
+106.5892	0	right	50.0	left_hand.png	2.0	532946.0	1	15	right	10	2.0
+111.1428	0	right	16.6666666667	right_hand.png	2.0	555714.0	1	16	left	10	-13.4
+115.7636	0	right	83.3333333333	right_hand.png	2.0	578818.0	1	17	left	10	0.6
+120.3664	0	right	66.6666666667	right_hand.png	2.0	601832.0	1	18	left	10	-19.8
+125.0368	0	right	133.33333333299998	left_hand.png	2.0	625184.0	1	19	right	10	-12.4
+129.657	0	left	83.3333333333	right_hand.png	1.0	648285.0	1	20	left	10	-17.6
+134.2314	0	left	33.3333333333	right_hand.png	1.0	671157.0	1	21	left	10	-35.2
+142.4378	0	left	150.0	left_hand.png	1.0	712189.0	1	22	right	11	-1.2
+147.0368	0	right	66.6666666667	left_hand.png	2.0	735184.0	1	23	right	11	-16.8
+151.6906	0	right	116.666666667	left_hand.png	2.0	758453.0	1	24	right	11	-9.6
+156.2608	0	left	33.3333333333	right_hand.png	1.0	781304.0	1	25	left	11	2.6
+160.8474	0	right	50.0	right_hand.png	2.0	804237.0	1	26	left	11	-7.6
+165.4176	0	right	33.3333333333	right_hand.png	2.0	827088.0	1	27	left	11	-15.0
+170.072	0	right	116.666666667	right_hand.png	2.0	850360.0	1	28	left	11	-10.2
+174.6918	0	left	83.3333333333	left_hand.png	1.0	873459.0	1	29	right	11	-3.0
+179.2448	0	left	16.6666666667	left_hand.png	1.0	896224.0	1	30	right	11	-15.4
+183.886	0	left	100.0	right_hand.png	1.0	919430.0	1	31	left	11	-14.6
+188.4686	0	right	50.0	right_hand.png	2.0	942343.0	1	32	left	11	-26.0
+193.1054	0	right	100.0	right_hand.png	2.0	965527.0	1	33	left	11	-3.6
+197.73	0	right	83.3333333333	right_hand.png	2.0	988650.0	1	34	left	11	-20.2
+202.3288	0	right	66.6666666667	right_hand.png	2.0	1011644.0	1	35	left	11	-36.6
+210.5188	0	right	150.0	right_hand.png	2.0	1052594.0	1	36	left	12	-34.6
+215.0726	0	left	16.6666666667	right_hand.png	1.0	1075363.0	1	37	left	12	-31.6
+219.7096	0	right	100.0	left_hand.png	2.0	1098548.0	1	38	right	12	-9.4
+224.33	0	left	83.3333333333	right_hand.png	1.0	1121650.0	1	39	left	12	-34.4
+228.9372	0	left	66.6666666667	right_hand.png	1.0	1144686.0	1	40	left	12	-16.0
+233.574	0	right	100.0	left_hand.png	2.0	1167870.0	1	41	right	12	-24.2
+238.1774	0	right	66.6666666667	left_hand.png	2.0	1190887.0	1	42	right	12	-19.6
+242.7934	0	right	83.3333333333	left_hand.png	2.0	1213967.0	1	43	right	12	-2.0
+247.4846	0	left	150.0	right_hand.png	1.0	1237423.0	1	44	left	12	-34.0
+252.1048	0	right	83.3333333333	right_hand.png	2.0	1260524.0	1	45	left	12	5.0
+260.1946	0	left	83.3333333333	left_hand.png	1.0	1300973.0	1	46	right	13	-3.0
+264.8108	0	left	83.3333333333	right_hand.png	1.0	1324054.0	1	47	left	13	-3.4
+269.3638	0	right	16.6666666667	left_hand.png	2.0	1346819.0	1	48	right	13	0.4
+273.9502	0	right	50.0	left_hand.png	2.0	1369751.0	1	49	right	13	-6.2
+278.5374	0	left	50.0	left_hand.png	1.0	1392687.0	1	50	right	13	-31.8
+283.1782	0	left	100.0	right_hand.png	1.0	1415891.0	1	51	left	13	-15.6
+287.7988	0	left	83.3333333333	right_hand.png	1.0	1438994.0	1	52	left	13	-2.6
+292.448	0	left	116.666666667	left_hand.png	1.0	1462240.0	1	53	right	13	-8.6
+297.1020000000001	0	left	116.666666667	right_hand.png	1.0	1485510.0	1	54	left	13	12.6
+301.6928	0	left	50.0	left_hand.png	1.0	1508464.0	1	55	right	13	-2.4
+306.3416	0	left	116.666666667	left_hand.png	1.0	1531708.0	1	56	right	13	3.4
+310.9506	0	left	66.6666666667	left_hand.png	1.0	1554753.0	1	57	right	13	-12.0
+315.4986	0	left	16.6666666667	right_hand.png	1.0	1577493.0	1	58	left	13	-3.2
+320.1366	0	right	100.0	left_hand.png	2.0	1600683.0	1	59	right	13	-18.4
+324.756	0	left	83.3333333333	left_hand.png	1.0	1623780.0	1	60	right	13	6.6
+329.33	0	left	33.3333333333	left_hand.png	1.0	1646650.0	1	61	right	13	-36.2
+333.8962	0	left	33.3333333333	left_hand.png	1.0	1669481.0	1	62	right	13	5.6
+338.5	0	right	66.6666666667	left_hand.png	2.0	1692500.0	1	63	right	13	-11.0
+343.1368	0	right	100.0	left_hand.png	2.0	1715684.0	1	64	right	13	-34.4
+347.7404	0	left	66.6666666667	right_hand.png	1.0	1738702.0	1	65	left	13	-15.2
+352.3104	0	right	33.3333333333	left_hand.png	2.0	1761552.0	1	66	right	13	-2.2
+356.8806	0	left	33.3333333333	left_hand.png	1.0	1784403.0	1	67	right	13	-41.2
+361.5008	0	right	83.3333333333	right_hand.png	2.0	1807504.0	1	68	left	13	-2.2
+366.1216	0	right	83.3333333333	left_hand.png	2.0	1830608.0	1	69	right	13	-15.0
+370.7432	0	left	83.3333333333	right_hand.png	1.0	1853716.0	1	70	left	13	0.8
+375.3126	0	right	33.3333333333	left_hand.png	2.0	1876563.0	1	71	right	13	-15.6
+380.0112	0	right	116.666666667	right_hand.png	2.0	1900056.0	1	72	left	13	-29.4
+388.1254	0	right	33.3333333333	left_hand.png	2.0	1940627.0	1	73	right	14	-28.4
+392.8122	0	left	150.0	right_hand.png	1.0	1964061.0	1	74	left	14	-4.8
+397.3658	0	right	16.6666666667	left_hand.png	2.0	1986829.0	1	75	right	14	-27.2
+402.086	0	right	183.33333333299998	left_hand.png	2.0	2010430.0	1	76	right	14	-19.2
+406.7562	0	left	133.33333333299998	left_hand.png	1.0	2033781.0	1	77	right	14	-8.2
+411.4432	0	left	150.0	left_hand.png	1.0	2057216.0	1	78	right	14	1.0
+420.2956	0	left	83.3333333333	right_hand.png	1.0	2101478.0	1	79	left	15	-19.4
+424.9002	0	right	66.6666666667	right_hand.png	2.0	2124501.0	1	80	left	15	-16.0
+429.4904	0	right	50.0	left_hand.png	2.0	2147452.0	1	81	right	15	-33.4
+434.0604	0	left	33.3333333333	left_hand.png	1.0	2170302.0	1	82	right	15	-11.4
+442.7504	0	right	133.33333333299998	right_hand.png	2.0	2213752.0	1	83	left	16	2.6
+447.3708	0	left	83.3333333333	right_hand.png	1.0	2236854.0	1	84	left	16	-35.4
+451.9742	0	right	66.6666666667	left_hand.png	2.0	2259871.0	1	85	right	16	-30.8
+456.6442	0	left	100.0	right_hand.png	1.0	2283221.0	1	86	left	16	5.6
+461.2480000000001	0	left	66.6666666667	left_hand.png	1.0	2306240.0	1	87	right	16	-1.0
+465.9148	0	left	133.33333333299998	left_hand.png	1.0	2329574.0	1	88	right	16	-19.4
+470.535	0	right	83.3333333333	left_hand.png	2.0	2352675.0	1	89	right	16	-24.8
+475.1392	0	right	66.6666666667	left_hand.png	2.0	2375696.0	1	90	right	16	23.4
+479.7454	0	left	66.6666666667	right_hand.png	1.0	2398727.0	1	91	left	16	-0.4
+484.3822	0	left	100.0	right_hand.png	1.0	2421911.0	1	92	left	16	-21.6
+489.0024	0	left	83.3333333333	left_hand.png	1.0	2445012.0	1	93	right	16	2.6
+493.5726	0	right	33.3333333333	right_hand.png	2.0	2467863.0	1	94	left	16	-29.2
+498.193	0	right	83.3333333333	right_hand.png	2.0	2490965.0	1	95	left	16	-4.4
+502.8464	0	right	116.666666667	right_hand.png	2.0	2514232.0	1	96	left	16	-10.2
+507.4332	0	left	50.0	left_hand.png	1.0	2537166.0	1	97	right	16	-14.6
+515.6528	0	left	133.33333333299998	right_hand.png	1.0	2578264.0	1	98	left	17	9.0
+520.29	0	right	100.0	right_hand.png	2.0	2601450.0	1	99	left	17	-31.0
+524.8936	0	left	66.6666666667	left_hand.png	1.0	2624468.0	1	100	right	17	-11.8
+740.5402	0	right	66.6666666667	left_hand.png	2.0	3702701.0	2	1	right	1	-33.6
+745.1272	0	right	50.0	right_hand.png	2.0	3725636.0	2	2	left	1	-38.2
+749.7138	0	right	50.0	right_hand.png	2.0	3748569.0	2	3	left	1	-16.8
+754.284	0	left	33.3333333333	left_hand.png	1.0	3771420.0	2	4	right	1	-30.2
+758.921	0	right	100.0	left_hand.png	2.0	3794605.0	2	5	right	1	-8.0
+767.0602	0	left	83.3333333333	left_hand.png	1.0	3835301.0	2	6	right	2	-6.4
+771.7314	0	right	83.3333333333	left_hand.png	2.0	3858657.0	2	7	right	2	-18.4
+776.3342	0	right	66.6666666667	right_hand.png	2.0	3881671.0	2	8	left	2	-38.8
+780.9208	0	left	50.0	left_hand.png	1.0	3904604.0	2	9	right	2	-17.4
+785.5412	0	left	83.3333333333	right_hand.png	1.0	3927706.0	2	10	left	2	-28.8
+790.1448	0	right	66.6666666667	left_hand.png	2.0	3950724.0	2	11	right	2	-29.8
+794.8028	0	left	116.666666667	right_hand.png	1.0	3974014.0	2	12	left	2	-10.4
+799.4062	0	left	66.6666666667	left_hand.png	1.0	3997031.0	2	13	right	2	6.0
+803.9888	0	left	50.0	right_hand.png	1.0	4019944.0	2	14	left	2	-19.8
+808.6088	0	left	83.3333333333	right_hand.png	1.0	4043044.0	2	15	left	2	-6.2
+813.2002	0	left	50.0	right_hand.png	1.0	4066001.0	2	16	left	2	-16.0
+817.8326	0	right	100.0	left_hand.png	2.0	4089163.0	2	17	right	2	-14.0
+822.4028	0	left	33.3333333333	right_hand.png	1.0	4112014.0	2	18	left	2	-1.8
+827.0062	0	right	66.6666666667	right_hand.png	2.0	4135031.0	2	19	left	2	0.0
+831.5596	0	left	16.6666666667	right_hand.png	1.0	4157798.0	2	20	left	2	-2.8
+836.1464	0	right	50.0	left_hand.png	2.0	4180732.0	2	21	right	2	-17.8
+840.7376	0	left	50.0	right_hand.png	1.0	4203688.0	2	22	left	2	-32.6
+845.4036	0	right	133.33333333299998	left_hand.png	2.0	4227018.0	2	23	right	2	-1.6
+849.9738	0	left	33.3333333333	right_hand.png	1.0	4249869.0	2	24	left	2	-27.2
+854.6106	0	left	100.0	right_hand.png	1.0	4273053.0	2	25	left	2	-4.8
+859.1974	0	right	50.0	left_hand.png	2.0	4295987.0	2	26	right	2	-23.4
+863.8392	0	left	100.0	left_hand.png	1.0	4319196.0	2	27	right	2	-17.4
+868.4044	0	left	33.3333333333	right_hand.png	1.0	4342022.0	2	28	left	2	-21.8
+873.0754	0	right	133.33333333299998	left_hand.png	2.0	4365377.0	2	29	right	2	-12.0
+877.645	0	left	33.3333333333	left_hand.png	1.0	4388225.0	2	30	right	2	-22.6
+882.215	0	left	33.3333333333	left_hand.png	1.0	4411075.0	2	31	right	2	-12.4
+886.7726	0	left	16.6666666667	right_hand.png	1.0	4433863.0	2	32	left	2	-13.2
+891.4222	0	left	116.666666667	right_hand.png	1.0	4457111.0	2	33	left	2	-3.6
+896.0634	0	right	100.0	left_hand.png	2.0	4480317.0	2	34	right	2	-11.2
+900.6624	0	left	66.6666666667	left_hand.png	1.0	4503312.0	2	35	right	2	-2.2
+905.287	0	left	83.3333333333	right_hand.png	1.0	4526435.0	2	36	left	2	-18.8
+909.9196	0	left	100.0	right_hand.png	1.0	4549598.0	2	37	left	2	-17.8
+914.5062	0	left	50.0	left_hand.png	1.0	4572531.0	2	38	right	2	3.6
+919.1266	0	left	83.3333333333	right_hand.png	1.0	4595633.0	2	39	left	2	-34.4
+923.7466	0	right	83.3333333333	left_hand.png	2.0	4618733.0	2	40	right	2	-9.8
+928.301	0	left	16.6666666667	right_hand.png	1.0	4641505.0	2	41	left	2	7.2
+932.9038	0	right	66.6666666667	left_hand.png	2.0	4664519.0	2	42	right	2	8.8
+937.524	0	left	83.3333333333	left_hand.png	1.0	4687620.0	2	43	right	2	-25.4
+942.1442	0	left	83.3333333333	left_hand.png	1.0	4710721.0	2	44	right	2	-12.0
+946.7532	0	left	66.6666666667	right_hand.png	1.0	4733766.0	2	45	left	2	-5.6
+951.3346	0	left	50.0	right_hand.png	1.0	4756673.0	2	46	left	2	-37.6
+955.9048	0	right	33.3333333333	right_hand.png	2.0	4779524.0	2	47	left	2	-2.8
+960.529	0	right	83.3333333333	right_hand.png	2.0	4802645.0	2	48	left	2	-16.0
+965.2118	0	left	150.0	right_hand.png	1.0	4826059.0	2	49	left	2	-8.4
+975.603	0	left	66.6666666667	left_hand.png	1.0	4878015.0	2	50	right	2	-11.4
+980.1564	0	right	16.6666666667	left_hand.png	2.0	4900782.0	2	51	right	2	-8.2
+984.7268	0	left	33.3333333333	right_hand.png	1.0	4923634.0	2	52	left	2	-21.8
+989.2802	0	right	16.6666666667	left_hand.png	2.0	4946401.0	2	53	right	2	-18.4
+993.867	0	left	50.0	right_hand.png	1.0	4969335.0	2	54	left	2	0.8
+998.4746	0	right	66.6666666667	right_hand.png	2.0	4992373.0	2	55	left	2	-22.4
+1003.1412	0	left	116.666666667	right_hand.png	1.0	5015706.0	2	56	left	2	-18.0
+1007.7108	0	left	33.3333333333	right_hand.png	1.0	5038554.0	2	57	left	2	8.6
+1012.302	0	left	50.0	left_hand.png	1.0	5061510.0	2	58	right	2	0.8
+1016.8512	0	left	16.6666666667	left_hand.png	1.0	5084256.0	2	59	right	2	-21.2
+1025.0746	0	left	166.66666666700002	left_hand.png	1.0	5125373.0	2	60	right	3	1.6
+1029.6444	0	left	33.3333333333	left_hand.png	1.0	5148222.0	2	61	right	3	-32.8
+1034.2646	0	right	83.3333333333	left_hand.png	2.0	5171323.0	2	62	right	3	2.0
+1038.8892	0	left	83.3333333333	right_hand.png	1.0	5194446.0	2	63	left	3	-14.6
+1043.476	0	left	50.0	right_hand.png	1.0	5217380.0	2	64	left	3	-19.0
+1048.1128	0	left	100.0	right_hand.png	1.0	5240564.0	2	65	left	3	3.4
+1052.712	0	right	66.6666666667	left_hand.png	2.0	5263560.0	2	66	right	3	-13.4
+1057.3156	0	left	66.6666666667	right_hand.png	1.0	5286578.0	2	67	left	3	-9.0
+1061.8734	0	left	16.6666666667	left_hand.png	1.0	5309367.0	2	68	right	3	-10.0
+1066.506	0	left	100.0	right_hand.png	1.0	5332530.0	2	69	left	3	-5.4
+1071.0762	0	right	33.3333333333	left_hand.png	2.0	5355381.0	2	70	right	3	-22.4
+1075.6972	0	left	83.3333333333	left_hand.png	1.0	5378486.0	2	71	right	3	-8.2
+1080.3002	0	left	66.6666666667	left_hand.png	1.0	5401501.0	2	72	right	3	-19.0
+1084.92	0	right	83.3333333333	left_hand.png	2.0	5424600.0	2	73	right	3	-16.6
+1089.507	0	left	50.0	right_hand.png	1.0	5447535.0	2	74	left	3	-17.4
+1094.1438	0	left	100.0	left_hand.png	1.0	5470719.0	2	75	right	3	1.2
+1098.7306	0	left	50.0	right_hand.png	1.0	5493653.0	2	76	left	3	-28.8
+1103.3842	0	left	116.666666667	left_hand.png	1.0	5516921.0	2	77	right	3	-23.2
+1107.9542	0	left	33.3333333333	left_hand.png	1.0	5539771.0	2	78	right	3	-11.0
+1112.5578	0	left	66.6666666667	left_hand.png	1.0	5562789.0	2	79	right	3	-6.4
+1126.736	0	right	50.0	left_hand.png	2.0	5633680.0	2	80	right	4	-27.8
+1131.3558	0	left	83.3333333333	left_hand.png	1.0	5656779.0	2	81	right	4	11.6
+1135.9758	0	left	83.3333333333	left_hand.png	1.0	5679879.0	2	82	right	4	-26.0
+1140.5458	0	left	33.3333333333	right_hand.png	1.0	5702729.0	2	83	left	4	-39.2
+1145.1828	0	right	100.0	right_hand.png	2.0	5725914.0	2	84	left	4	-17.0
+1159.4482	0	left	83.3333333333	left_hand.png	1.0	5797241.0	2	85	right	5	-48.8
+1164.0138	0	left	33.3333333333	left_hand.png	1.0	5820069.0	2	86	right	5	-6.4
+1168.6174	0	left	66.6666666667	right_hand.png	1.0	5843087.0	2	87	left	5	-2.0
+1173.2042	0	left	50.0	right_hand.png	1.0	5866021.0	2	88	left	5	-6.4
+1177.875	0	right	133.33333333299998	right_hand.png	2.0	5889375.0	2	89	left	5	-18.0
+1182.4962	0	left	83.3333333333	left_hand.png	1.0	5912481.0	2	90	right	5	-11.0
+1188.9162	0	left	116.666666667	right_hand.png	1.0	5944581.0	2	91	left	6	0.0
+1198.0066	0	left	50.0	left_hand.png	1.0	5990033.0	2	92	right	6	-2.4
+1202.5766	0	right	33.3333333333	right_hand.png	2.0	6012883.0	2	93	left	6	-15.6
+1207.1514	0	left	33.3333333333	left_hand.png	1.0	6035757.0	2	94	right	6	-8.0
+1211.7338	0	right	50.0	left_hand.png	2.0	6058669.0	2	95	right	6	-33.6
+1216.3916	0	left	116.666666667	left_hand.png	1.0	6081958.0	2	96	right	6	-23.0
+1220.9744	0	left	50.0	right_hand.png	1.0	6104872.0	2	97	left	6	-7.0
+1225.5774	0	right	66.6666666667	right_hand.png	2.0	6127887.0	2	98	left	6	-27.6
+1230.965	0	left	16.6666666667	left_hand.png	1.0	6154825.0	2	99	right	6	-13.6
+1239.726	0	right	33.3333333333	right_hand.png	2.0	6198630.0	2	100	left	7	-19.4
+1341.5996	0	left	66.6666666667	right_hand.png	1.0	6707998.0	3	1	left	2	-26.8
+1346.2076	0	right	66.6666666667	left_hand.png	2.0	6731038.0	3	2	right	2	-5.0
+1350.8566	0	right	116.666666667	left_hand.png	2.0	6754283.0	3	3	right	2	-22.2
+1355.4312	0	right	33.3333333333	right_hand.png	2.0	6777156.0	3	4	left	2	-12.6
+1360.0970000000002	0	left	133.33333333299998	right_hand.png	1.0	6800485.0	3	5	left	2	-12.8
+1364.655	0	left	16.6666666667	left_hand.png	1.0	6823275.0	3	6	right	2	-31.8
+1369.2378	0	left	50.0	left_hand.png	1.0	6846189.0	3	7	right	2	-20.8
+1373.9076	0	right	83.3333333333	left_hand.png	2.0	6869538.0	3	8	right	2	-5.8
+1378.511	0	left	66.6666666667	right_hand.png	1.0	6892555.0	3	9	left	2	-1.2
+1383.148	0	left	100.0	right_hand.png	1.0	6915740.0	3	10	left	2	-20.8
+1387.7182	0	right	33.3333333333	left_hand.png	2.0	6938591.0	3	11	right	2	-18.0
+1392.3384	0	left	83.3333333333	right_hand.png	1.0	6961692.0	3	12	left	2	-30.2
+1396.9920000000004	0	right	116.666666667	right_hand.png	2.0	6984960.0	3	13	left	2	-24.6
+1401.612	0	left	83.3333333333	left_hand.png	1.0	7008060.0	3	14	right	2	14.6
+1406.1864	0	left	33.3333333333	right_hand.png	1.0	7030932.0	3	15	left	2	-28.6
+1410.84	0	left	116.666666667	left_hand.png	1.0	7054200.0	3	16	right	2	-23.0
+1415.4226	0	left	50.0	right_hand.png	1.0	7077113.0	3	17	left	2	2.4
+1419.9972	0	right	33.3333333333	left_hand.png	2.0	7099986.0	3	18	right	2	-38.6
+1424.6129999999996	0	left	83.3333333333	right_hand.png	1.0	7123065.0	3	19	left	2	-8.6
+1429.234	0	right	83.3333333333	left_hand.png	2.0	7146170.0	3	20	right	2	-10.6
+1433.854	0	left	83.3333333333	right_hand.png	1.0	7169270.0	3	21	left	2	-7.0
+1438.4778	0	left	83.3333333333	right_hand.png	1.0	7192389.0	3	22	left	2	-12.8
+1443.0606	0	right	50.0	left_hand.png	2.0	7215303.0	3	23	right	2	-13.2
+1451.2878	0	right	166.66666666700002	left_hand.png	2.0	7256439.0	3	24	right	3	-22.8
+1455.908	0	left	83.3333333333	right_hand.png	1.0	7279540.0	3	25	left	3	-13.2
+1460.5238	0	right	83.3333333333	right_hand.png	2.0	7302619.0	3	26	left	3	8.4
+1465.0984	0	left	33.3333333333	right_hand.png	1.0	7325492.0	3	27	left	3	-12.2
+1469.6516	0	right	16.6666666667	right_hand.png	2.0	7348258.0	3	28	left	3	-5.8
+1474.2342	0	left	50.0	left_hand.png	1.0	7371171.0	3	29	right	3	-6.0
+1481.0234	0	left	133.33333333299998	right_hand.png	1.0	7405117.0	3	30	left	4	-11.2
+1485.5972	0	right	33.3333333333	left_hand.png	2.0	7427986.0	3	31	right	4	-22.2
+1490.1466	0	left	16.6666666667	right_hand.png	1.0	7450733.0	3	32	left	4	-14.8
+1494.8168	0	left	133.33333333299998	right_hand.png	1.0	7474084.0	3	33	left	4	-6.2
+1499.4244	0	right	66.6666666667	right_hand.png	2.0	7497122.0	3	34	left	4	-5.8
+1504.0238	0	left	66.6666666667	left_hand.png	1.0	7520119.0	3	35	right	4	-0.4
+1508.6442	0	right	83.3333333333	right_hand.png	2.0	7543221.0	3	36	left	4	-34.0
+1513.335	0	left	150.0	left_hand.png	1.0	7566675.0	3	37	right	4	-15.6
+1517.9678	0	right	100.0	right_hand.png	2.0	7589839.0	3	38	left	4	10.8
+1522.606	0	left	100.0	left_hand.png	1.0	7613030.0	3	39	right	4	-15.6
+1527.2252	0	left	83.3333333333	right_hand.png	1.0	7636126.0	3	40	left	4	-5.0
+1531.8284	0	right	66.6666666667	right_hand.png	2.0	7659142.0	3	41	left	4	-0.2
+1545.026	0	left	50.0	right_hand.png	1.0	7725130.0	3	42	left	7	-13.8
+1549.6086	0	left	50.0	right_hand.png	1.0	7748043.0	3	43	left	7	-14.0
+1554.2288	0	right	83.3333333333	left_hand.png	2.0	7771144.0	3	44	right	7	-26.2
+1558.8366	0	left	66.6666666667	right_hand.png	1.0	7794183.0	3	45	left	7	-26.0
+1563.4524	0	right	83.3333333333	left_hand.png	2.0	7817262.0	3	46	right	7	-25.2
+1568.0226	0	left	33.3333333333	right_hand.png	1.0	7840113.0	3	47	left	7	-21.6
+1572.6096	0	right	50.0	right_hand.png	2.0	7863048.0	3	48	left	7	-0.6
+1580.7664	0	left	100.0	right_hand.png	1.0	7903832.0	3	49	left	8	-16.6
+1585.3902	0	right	83.3333333333	right_hand.png	2.0	7926951.0	3	50	left	8	-32.4
+1590.0062	0	left	83.3333333333	left_hand.png	1.0	7950031.0	3	51	right	8	1.2
+1594.6262	0	left	83.3333333333	right_hand.png	1.0	7973131.0	3	52	left	8	-1.2
+1599.23	0	right	66.6666666667	right_hand.png	2.0	7996150.0	3	53	left	8	-22.6
+1603.85	0	left	83.3333333333	right_hand.png	1.0	8019250.0	3	54	left	8	-30.2
+1610.5096	0	left	33.3333333333	right_hand.png	1.0	8052548.0	3	55	left	9	-12.6
+1615.0754	0	right	33.3333333333	right_hand.png	2.0	8075377.0	3	56	left	9	4.0
+1621.7638	0	right	83.3333333333	left_hand.png	2.0	8108819.0	3	57	right	10	-16.2
+1630.2706	0	left	50.0	right_hand.png	1.0	8151353.0	3	58	left	10	-10.4
+1638.4432	0	right	116.666666667	right_hand.png	2.0	8192216.0	3	59	left	11	-16.6
+1643.0302	0	left	50.0	left_hand.png	1.0	8215151.0	3	60	right	11	-21.2
+1647.6504	0	left	83.3333333333	left_hand.png	1.0	8238252.0	3	61	right	11	-33.4
+1652.2704	0	left	83.3333333333	right_hand.png	1.0	8261352.0	3	62	left	11	5.8
+1656.8406	0	left	33.3333333333	right_hand.png	1.0	8284203.0	3	63	left	11	-33.2
+1661.465	0	right	83.3333333333	left_hand.png	2.0	8307325.0	3	64	right	11	1.0
+1666.0644	0	left	66.6666666667	left_hand.png	1.0	8330322.0	3	65	right	11	-15.4
+1671.6686	0	left	83.3333333333	left_hand.png	1.0	8358343.0	3	66	right	12	-13.2
+1676.3228	0	left	116.666666667	right_hand.png	1.0	8381614.0	3	67	left	12	-8.2
+1680.9764	0	right	116.666666667	left_hand.png	2.0	8404882.0	3	68	right	12	-2.6
+1689.1362	0	left	100.0	right_hand.png	1.0	8445681.0	3	69	left	13	-21.6
+1693.7854	0	right	116.666666667	right_hand.png	2.0	8468927.0	3	70	left	13	-11.6
+1698.3558	0	left	33.3333333333	right_hand.png	1.0	8491779.0	3	71	left	13	-25.0
+1703.0136	0	left	116.666666667	right_hand.png	1.0	8515068.0	3	72	left	13	1.8
+1707.6129999999996	0	right	66.6666666667	left_hand.png	2.0	8538065.0	3	73	right	13	10.4
+1712.2332	0	left	83.3333333333	left_hand.png	1.0	8561166.0	3	74	right	13	-1.8
+1716.8198	0	left	50.0	right_hand.png	1.0	8584099.0	3	75	left	13	-6.0
+1723.8086	0	left	183.33333333299998	right_hand.png	1.0	8619043.0	3	76	left	14	7.8
+1730.0968	0	left	100.0	right_hand.png	1.0	8650484.0	3	77	left	15	-22.2
+1734.6682	0	right	33.3333333333	left_hand.png	2.0	8673341.0	3	78	right	15	-11.2
+1739.2536	0	left	50.0	right_hand.png	1.0	8696268.0	3	79	left	15	-24.0
+1743.8616	0	right	66.6666666667	right_hand.png	2.0	8719308.0	3	80	left	15	-8.8
+1752.0134	0	left	116.666666667	right_hand.png	1.0	8760067.0	3	81	left	16	-10.0
+1756.6838	0	right	133.33333333299998	right_hand.png	2.0	8783419.0	3	82	left	16	-10.8
+1761.3036	0	left	83.3333333333	left_hand.png	1.0	8806518.0	3	83	right	16	-21.0
+1765.874	0	left	33.3333333333	left_hand.png	1.0	8829370.0	3	84	right	16	-10.6
+1770.6278	0	left	133.33333333299998	left_hand.png	1.0	8853139.0	3	85	right	16	-2.8
+1778.8172	0	left	133.33333333299998	right_hand.png	1.0	8894086.0	3	86	left	17	-0.2
+1783.4374	0	right	83.3333333333	left_hand.png	2.0	8917187.0	3	87	right	17	-12.4
+1788.0076	0	right	33.3333333333	right_hand.png	2.0	8940038.0	3	88	left	17	-11.4
+1792.7112	0	left	166.66666666700002	right_hand.png	1.0	8963556.0	3	89	left	17	-18.0
+1797.369	0	left	116.666666667	right_hand.png	1.0	8986845.0	3	90	left	17	-17.6
+1809.9122	0	left	116.666666667	left_hand.png	1.0	9049561.0	3	91	right	19	0.8
+1814.549	0	left	100.0	left_hand.png	1.0	9072745.0	3	92	right	19	-20.0
+1819.1648	0	left	83.3333333333	right_hand.png	1.0	9095824.0	3	93	left	19	-2.2
+1823.7526	0	right	50.0	right_hand.png	2.0	9118763.0	3	94	left	19	-12.0
+1828.3392	0	left	50.0	right_hand.png	1.0	9141696.0	3	95	left	19	-11.8
+1832.9254	0	right	50.0	right_hand.png	2.0	9164627.0	3	96	left	19	-15.6
+1837.5454	0	right	83.3333333333	left_hand.png	2.0	9187727.0	3	97	right	19	-27.6
+1842.1826	0	left	100.0	right_hand.png	1.0	9210913.0	3	98	left	19	-5.6
+1846.8404	0	right	116.666666667	left_hand.png	2.0	9234202.0	3	99	right	19	-29.8
+1851.494	0	left	116.666666667	right_hand.png	1.0	9257470.0	3	100	left	19	-24.2

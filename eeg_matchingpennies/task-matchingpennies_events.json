@@ -1,25 +1,21 @@
 {
     "onset": {
-        "Description": "Onset of the event",
+        "Description": "Onset of a button release (either left or right), corresponding to raising of a hand.",
         "Units": "s"
     },
     "duration": {
-        "Description": "Duration of the event",
+        "Description": "Duration of the button released. Modeled as instantaneous event, so the duration is 0 seconds.",
         "Units": "s"
     },
-    "trial_type": {
-        "Description": "Which hand was lifted by the participant in this trial.",
+    "trial": {
+        "Description": "The current trial within this stage (see 'stage')."
+    },
+    "hand_raised": {
+        "Description": "Which hand was raised (i.e., which button was released).",
         "Levels": {
-            "left": "Left",
-            "right": "Right"
+            "left": "The left hand was raised (i.e., left button was released)",
+            "right": "The right hand was raised (i.e., right button was released)"
         }
-    },
-    "response_time": {
-        "Description": "Reaction time to lift the left or right hand after the countdown reached zero.",
-        "Units": "ms"
-    },
-    "stim_file": {
-        "Description": "Name of the file that was shown during this trial of the experiment."
     },
     "value": {
         "Description": "The code (EEG Marker value) associated with an event ",
@@ -29,38 +25,62 @@
         }
     },
     "sample": {
-        "Description": "The sample within the EEG data at which an event occurred"
+        "Description": "The sample within the EEG data at which the button release event occurred (i.e., a hand was raised)."
     },
-    "stage": {
-        "Description": "The current stage of the experiment.",
-        "Levels": {
-            "1": "Stage 1. BCI acts randomly",
-            "2": "Stage 2. BCI was trained on data from stage 1.",
-            "3": "Stage 3. BCI was trained on data from stages 1 and 2."
-        }
+    "countdown_onset": {
+        "Description": "Onset of the countdown after which to raise a hand (duration: 3 s).",
+        "Units": "s"
     },
-    "latency": {
-        "Description": "Estimated beginning of the data chunk used for the BCI prediction with respect to the true event as measured by parallel port trigger in this trial.",
+    "countdown_offset": {
+        "Description": "Offset of the countdown. Must raise a hand now.",
+        "Units": "s"
+    },
+    "response_time": {
+        "Description": "Reaction time to lift the left or right hand after the countdown reached zero.",
         "Units": "ms"
     },
-    "trial": {
-        "Description": "The current trial within this stage."
+    "feedback_onset_approx": {
+        "Description": "Approximate onset of the bci-produced feedback (either a left or a right hand visual stimulus).",
+        "Units": "s"
+    },
+    "stim_file": {
+        "Description": "Name of the stimulus file that was shown during this trial at 'feedback_onset_approx'."
+    },
+    "trial_type": {
+        "Description": "Which hand was raised, and did this match the BCIs prediction (lose outcome), or not (win outcome).",
+        "Levels": {
+            "raised-left/match-false": "raised left hand, bci predicted right hand",
+            "raised-left/match-true": "raised left hand, bci predicted left hand",
+            "raised-right/match-false": "raised right hand, bci predicted left hand",
+            "raised-right/match-true": "raised right hand, bci predicted right hand"
+        },
+        "HED": {
+            "raised-left/match-true": "Description/Subject raised left hand and computer presented image of left hand, (Agent-action, Experiment-subject, (Lift, (Left-side, Hand), (Release, (Left-side, Button)), ((Delay/68 ms, Approximated), (Sensory-presentation, Visual, (Drawing, ID/left_hand.png, (Left-side, Hand), (Feedback, (Intended-effect, Penalty)))",
+            "raised-left/match-false": "Description/Subject raised left hand and computer presented image of right hand, (Agent-action, Experiment-subject, (Lift, (Left-side, Hand), (Release, (Left-side, Button)), ((Delay/68 ms, Approximated), (Sensory-presentation, Visual, (Drawing, ID/right_hand.png, (Right-side, Hand), (Feedback, (Intended-effect, Reward)))",
+            "raised-right/match-true": "Description/Subject raised right hand and computer presented image of right hand, (Agent-action, Experiment-subject, (Lift, (Right-side, Hand), (Release, (Right-side, Button)), ((Delay/68 ms, Approximated), (Sensory-presentation, Visual, (Drawing, ID/right_hand.png, (Right-side, Hand), (Feedback, (Intended-effect, Penalty)))",
+            "raised-right/match-false": "Description/Subject raised right hand and computer presented image of left hand, (Agent-action, Experiment-subject, (Lift, (Right-side, Hand), (Release, (Right-side, Button)), ((Delay/68 ms, Approximated), (Sensory-presentation, Visual, (Drawing, ID/left_hand.png, (Left-side, Hand), (Feedback, (Intended-effect, Reward)))"
+        }
+    },
+    "stage": {
+        "Description": "The current 'stage' of the experiment, which relates to how the BCI makes predictions.",
+        "Levels": {
+            "1": "Stage 1. BCI makes random predictions.",
+            "2": "Stage 2. BCI makes predictions after being trained on data from stage 1.",
+            "3": "Stage 3. BCI makes predictions after being trained on data from stages 1 and 2."
+        }
     },
     "bci_prediction": {
-        "Description": "Which lift_side did the BCI predict in this trial.",
+        "Description": "What hand (left/right) did the BCI predict to be raised.",
         "Levels": {
             "left": "Left",
             "right": "Right"
         }
     },
-    "bci_prediction_valid": {
-        "Description": "Did a prediction arrive on time (if not, a random prediction was made) in this trial.",
-        "Levels": {
-            "1": "True",
-            "2": "False"
-        }
+    "latency": {
+        "Description": "Estimated beginning of the data chunk used for the BCI prediction with respect to 'onset' (when a hand was raised / a button was released).",
+        "Units": "ms"
     },
     "n_repeated": {
-        "Description": "Number of trials that had to be repeated until the present trial because of invalid participant behavior (within this stage)."
+        "Description": "In case the participant did not adhere to the task rules, the trial was aborted and repeated (e.g., if a hand was raised before the countdown was over). 'n_repeated' tracks how many trials in total within this 'stage' had to be repeated before the trial described in a given row."
     }
 }
