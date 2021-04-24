@@ -1,0 +1,79 @@
+{
+  "Name": "ds114_model1",
+  "Description": "sample model for ds114",
+  "Input": {
+    "task": "fingerfootlips"
+  },
+  "Steps": [
+    {
+      "Level": "run",
+      "Transformations": [
+        {
+          "Name": "Factor",
+          "Input": ["trial_type"]
+        },
+        {
+          "Name": "Convolve",
+          "Input": ["trial_type.Finger", "trial_type.Foot", "trial_type.Lips"],
+          "Model": "DoubleGamma"
+        }
+      ],
+      "Model": {
+        "X": [
+          "trial_type.Finger",
+          "trial_type.Foot",
+          "trial_type.Lips",
+          "framewise_displacement",
+          "trans_x", "trans_y", "trans_z", "rot_x", "rot_y", "rot_z",
+          "a_comp_cor_00", "a_comp_cor_01", "a_comp_cor_02",
+          "a_comp_cor_03", "a_comp_cor_04", "a_comp_cor_05"
+        ],
+        "Options": {
+          "high_pass_filter_cutoff_secs": 128
+        },
+      },
+      "Contrasts": [
+        {
+          "Name": "finger_vs_others",
+          "ConditionList": [
+            "trial_type.Finger",
+            "trial_type.Foot",
+            "trial_type.Lips"
+          ],
+          "Weights": [1, -0.5, -0.5],
+          "Type": "t"
+        },
+      ]
+    },
+    {
+      "Level": "subject",
+      "Transformations": [
+        {
+          "Name": "Split",
+          "Input": ["finger_vs_others"],
+          "By": "session"
+        }
+      ],
+      "Model": {
+        "X": [
+          "finger_vs_others.test",
+          "finger_vs_others.retest"
+        ]
+      },
+      "Contrasts": [
+        {
+          "Name": "test_vs_retest",
+          "ConditionList": [
+            "finger_vs_others.test",
+            "finger_vs_others.retest"
+          ],
+          "Weights": [1, -1]
+        }
+      ]
+    },
+    {
+      "Level": "dataset",
+      "AutoContrasts": ["test_vs_retest"]
+    }
+  ]
+}
